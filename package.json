@@ -23,12 +23,12 @@
     "preact-render-to-string": "^6.3.1",
     "react": "npm:@preact/compat@^17.1.2",
     "react-dom": "npm:@preact/compat@^17.1.2",
-    "react-router-dom": "^6.19.0"
+    "react-router-dom": "^6.20.0"
   },
   "devDependencies": {
     "@mdx-js/react": "^3.0.0",
     "@preact/preset-vite": "^2.7.0",
-    "@types/node": "^20.9.3",
+    "@types/node": "^20.9.4",
     "@types/react": "^18.2.38",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
     "@typescript-eslint/parser": "^6.12.0",
@@ -46,7 +46,7 @@
     "prettier": "^3.1.0",
     "rimraf": "^5.0.5",
     "serve": "^14.2.1",
-    "vite": "^5.0.0",
+    "vite": "^5.0.2",
     "vite-pages-theme-doc": "^4.1.7",
     "vite-plugin-react-pages": "^4.1.5"
   }
