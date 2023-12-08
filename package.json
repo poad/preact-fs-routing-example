@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "preact": "^10.19.2",
+    "preact": "^10.19.3",
     "preact-render-to-string": "^6.3.1",
     "react": "npm:@preact/compat@^17.1.2",
     "react-dom": "npm:@preact/compat@^17.1.2",
@@ -46,7 +46,7 @@
     "prettier": "^3.1.0",
     "rimraf": "^5.0.5",
     "serve": "^14.2.1",
-    "vite": "^5.0.6",
+    "vite": "^5.0.7",
     "vite-pages-theme-doc": "^4.1.7",
     "vite-plugin-react-pages": "^4.1.5"
   }
