@@ -6,17 +6,17 @@ settings:
 
 dependencies:
   preact:
-    specifier: ^10.19.5
-    version: 10.19.5
+    specifier: ^10.19.6
+    version: 10.19.6
   preact-render-to-string:
     specifier: ^6.4.0
-    version: 6.4.0(preact@10.19.5)
+    version: 6.4.0(preact@10.19.6)
   react:
     specifier: npm:@preact/compat@^17.1.2
-    version: /@preact/compat@17.1.2(preact@10.19.5)
+    version: /@preact/compat@17.1.2(preact@10.19.6)
   react-dom:
     specifier: npm:@preact/compat@^17.1.2
-    version: /@preact/compat@17.1.2(preact@10.19.5)
+    version: /@preact/compat@17.1.2(preact@10.19.6)
   react-router-dom:
     specifier: ^6.22.1
     version: 6.22.1(@preact/compat@17.1.2)(@preact/compat@17.1.2)
@@ -27,7 +27,7 @@ devDependencies:
     version: 3.0.1(@preact/compat@17.1.2)(@types/react@18.2.57)
   '@preact/preset-vite':
     specifier: ^2.8.1
-    version: 2.8.1(@babel/core@7.23.9)(preact@10.19.5)(vite@5.1.4)
+    version: 2.8.1(@babel/core@7.23.9)(preact@10.19.6)(vite@5.1.4)
   '@types/node':
     specifier: ^20.11.19
     version: 20.11.19
@@ -705,7 +705,7 @@ packages:
     dependencies:
       '@types/mdx': 2.0.11
       '@types/react': 18.2.57
-      react: /@preact/compat@17.1.2(preact@10.19.5)
+      react: /@preact/compat@17.1.2(preact@10.19.6)
     dev: true
 
   /@mdx-js/rollup@3.0.1(rollup@4.12.0):
@@ -750,14 +750,14 @@ packages:
     dev: true
     optional: true
 
-  /@preact/compat@17.1.2(preact@10.19.5):
+  /@preact/compat@17.1.2(preact@10.19.6):
     resolution: {integrity: sha512-7pOZN9lMDDRQ+6aWvjwTp483KR8/zOpfS83wmOo3zfuLKdngS8/5RLbsFWzFZMGdYlotAhX980hJ75bjOHTwWg==}
     peerDependencies:
       preact: '*'
     dependencies:
-      preact: 10.19.5
+      preact: 10.19.6
 
-  /@preact/preset-vite@2.8.1(@babel/core@7.23.9)(preact@10.19.5)(vite@5.1.4):
+  /@preact/preset-vite@2.8.1(@babel/core@7.23.9)(preact@10.19.6)(vite@5.1.4):
     resolution: {integrity: sha512-a9KV4opdj17X2gOFuGup0aE+sXYABX/tJi/QDptOrleX4FlnoZgDWvz45tHOdVfrZX+3uvVsIYPHxRsTerkDNA==}
     peerDependencies:
       '@babel/core': 7.x
@@ -766,7 +766,7 @@ packages:
       '@babel/core': 7.23.9
       '@babel/plugin-transform-react-jsx': 7.23.4(@babel/core@7.23.9)
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.23.9)
-      '@prefresh/vite': 2.4.5(preact@10.19.5)(vite@5.1.4)
+      '@prefresh/vite': 2.4.5(preact@10.19.6)(vite@5.1.4)
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.23.9)
       debug: 4.3.4
@@ -784,19 +784,19 @@ packages:
     resolution: {integrity: sha512-uG3jGEAysxWoyG3XkYfjYHgaySFrSsaEb4GagLzYaxlydbuREtaX+FTxuIidp241RaLl85XoHg9Ej6E4+V1pcg==}
     dev: true
 
-  /@prefresh/core@1.5.2(preact@10.19.5):
+  /@prefresh/core@1.5.2(preact@10.19.6):
     resolution: {integrity: sha512-A/08vkaM1FogrCII5PZKCrygxSsc11obExBScm3JF1CryK2uDS3ZXeni7FeKCx1nYdUkj4UcJxzPzc1WliMzZA==}
     peerDependencies:
       preact: ^10.0.0
     dependencies:
-      preact: 10.19.5
+      preact: 10.19.6
     dev: true
 
   /@prefresh/utils@1.2.0:
     resolution: {integrity: sha512-KtC/fZw+oqtwOLUFM9UtiitB0JsVX0zLKNyRTA332sqREqSALIIQQxdUCS1P3xR/jT1e2e8/5rwH6gdcMLEmsQ==}
     dev: true
 
-  /@prefresh/vite@2.4.5(preact@10.19.5)(vite@5.1.4):
+  /@prefresh/vite@2.4.5(preact@10.19.6)(vite@5.1.4):
     resolution: {integrity: sha512-iForDVJ2M8gQYnm5pHumvTEJjGGc7YNYC0GVKnHFL+GvFfKHfH9Rpq67nUAzNbjuLEpqEOUuQVQajMazWu2ZNQ==}
     peerDependencies:
       preact: ^10.4.0
@@ -804,10 +804,10 @@ packages:
     dependencies:
       '@babel/core': 7.23.9
       '@prefresh/babel-plugin': 0.5.1
-      '@prefresh/core': 1.5.2(preact@10.19.5)
+      '@prefresh/core': 1.5.2(preact@10.19.6)
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
-      preact: 10.19.5
+      preact: 10.19.6
       vite: 5.1.4(@types/node@20.11.19)
     transitivePeerDependencies:
       - supports-color
@@ -3235,7 +3235,7 @@ packages:
         optional: true
     dependencies:
       '@types/react': 18.2.57
-      react: /@preact/compat@17.1.2(preact@10.19.5)
+      react: /@preact/compat@17.1.2(preact@10.19.6)
     dev: true
 
   /js-tokens@4.0.0:
@@ -4312,17 +4312,17 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /preact-render-to-string@6.4.0(preact@10.19.5):
+  /preact-render-to-string@6.4.0(preact@10.19.6):
     resolution: {integrity: sha512-pzDwezZaLbK371OiJjXDsZJwVOALzFX5M1wEh2Kr0pEApq5AV6bRH/DFbA/zNA7Lck/duyREPQLLvzu2G6hEQQ==}
     peerDependencies:
       preact: '>=10'
     dependencies:
-      preact: 10.19.5
+      preact: 10.19.6
       pretty-format: 3.8.0
     dev: false
 
-  /preact@10.19.5:
-    resolution: {integrity: sha512-OPELkDmSVbKjbFqF9tgvOowiiQ9TmsJljIzXRyNE8nGiis94pwv1siF78rQkAP1Q1738Ce6pellRg/Ns/CtHqQ==}
+  /preact@10.19.6:
+    resolution: {integrity: sha512-gympg+T2Z1fG1unB8NH29yHJwnEaCH37Z32diPDku316OTnRPeMbiRV9kTrfZpocXjdfnWuFUl/Mj4BHaf6gnw==}
 
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -4391,8 +4391,8 @@ packages:
       react-dom: '>=16.8'
     dependencies:
       '@remix-run/router': 1.15.1
-      react: /@preact/compat@17.1.2(preact@10.19.5)
-      react-dom: /@preact/compat@17.1.2(preact@10.19.5)
+      react: /@preact/compat@17.1.2(preact@10.19.6)
+      react-dom: /@preact/compat@17.1.2(preact@10.19.6)
       react-router: 6.22.1(@preact/compat@17.1.2)
     dev: false
 
@@ -4403,7 +4403,7 @@ packages:
       react: '>=16.8'
     dependencies:
       '@remix-run/router': 1.15.1
-      react: /@preact/compat@17.1.2(preact@10.19.5)
+      react: /@preact/compat@17.1.2(preact@10.19.6)
     dev: false
 
   /readdirp@3.6.0:

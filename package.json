@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "preact": "^10.19.5",
+    "preact": "^10.19.6",
     "preact-render-to-string": "^6.4.0",
     "react": "npm:@preact/compat@^17.1.2",
     "react-dom": "npm:@preact/compat@^17.1.2",
