@@ -28,8 +28,8 @@
   "devDependencies": {
     "@mdx-js/react": "^3.0.1",
     "@preact/preset-vite": "^2.8.1",
-    "@types/node": "^20.11.20",
-    "@types/react": "^18.2.59",
+    "@types/node": "^20.11.21",
+    "@types/react": "^18.2.60",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
     "eslint": "^8.57.0",
