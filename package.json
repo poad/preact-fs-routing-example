@@ -23,12 +23,12 @@
     "preact-render-to-string": "^6.4.0",
     "react": "npm:@preact/compat@^17.1.2",
     "react-dom": "npm:@preact/compat@^17.1.2",
-    "react-router-dom": "^6.22.1"
+    "react-router-dom": "^6.22.2"
   },
   "devDependencies": {
     "@mdx-js/react": "^3.0.1",
     "@preact/preset-vite": "^2.8.1",
-    "@types/node": "^20.11.21",
+    "@types/node": "^20.11.22",
     "@types/react": "^18.2.60",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
