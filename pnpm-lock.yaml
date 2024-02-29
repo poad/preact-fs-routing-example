@@ -24,16 +24,16 @@ dependencies:
 devDependencies:
   '@mdx-js/react':
     specifier: ^3.0.1
-    version: 3.0.1(@preact/compat@17.1.2)(@types/react@18.2.60)
+    version: 3.0.1(@preact/compat@17.1.2)(@types/react@18.2.61)
   '@preact/preset-vite':
     specifier: ^2.8.1
     version: 2.8.1(@babel/core@7.24.0)(preact@10.19.6)(vite@5.1.4)
   '@types/node':
-    specifier: ^20.11.22
-    version: 20.11.22
+    specifier: ^20.11.23
+    version: 20.11.23
   '@types/react':
-    specifier: ^18.2.60
-    version: 18.2.60
+    specifier: ^18.2.61
+    version: 18.2.61
   '@typescript-eslint/eslint-plugin':
     specifier: ^7.1.0
     version: 7.1.0(@typescript-eslint/parser@7.1.0)(eslint@8.57.0)(typescript@5.3.3)
@@ -84,13 +84,13 @@ devDependencies:
     version: 14.2.1
   vite:
     specifier: ^5.1.4
-    version: 5.1.4(@types/node@20.11.22)
+    version: 5.1.4(@types/node@20.11.23)
   vite-pages-theme-doc:
     specifier: ^5.0.0
     version: 5.0.0
   vite-plugin-react-pages:
     specifier: ^5.0.0
-    version: 5.0.0(@preact/compat@17.1.2)(@types/react@18.2.60)(rollup@4.12.0)(vite@5.1.4)
+    version: 5.0.0(@preact/compat@17.1.2)(@types/react@18.2.61)(rollup@4.12.0)(vite@5.1.4)
 
 packages:
 
@@ -697,14 +697,14 @@ packages:
       - supports-color
     dev: true
 
-  /@mdx-js/react@3.0.1(@preact/compat@17.1.2)(@types/react@18.2.60):
+  /@mdx-js/react@3.0.1(@preact/compat@17.1.2)(@types/react@18.2.61):
     resolution: {integrity: sha512-9ZrPIU4MGf6et1m1ov3zKf+q9+deetI51zprKB1D/z3NOb+rUxxtEl3mCjW5wTGh6VhRdwPueh1oRzi6ezkA8A==}
     peerDependencies:
       '@types/react': '>=16'
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.11
-      '@types/react': 18.2.60
+      '@types/react': 18.2.61
       react: /@preact/compat@17.1.2(preact@10.19.6)
     dev: true
 
@@ -774,7 +774,7 @@ packages:
       magic-string: 0.30.5
       node-html-parser: 6.1.12
       resolve: 1.22.8
-      vite: 5.1.4(@types/node@20.11.22)
+      vite: 5.1.4(@types/node@20.11.23)
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -808,7 +808,7 @@ packages:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.19.6
-      vite: 5.1.4(@types/node@20.11.22)
+      vite: 5.1.4(@types/node@20.11.23)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1004,8 +1004,8 @@ packages:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
     dev: true
 
-  /@types/node@20.11.22:
-    resolution: {integrity: sha512-/G+IxWxma6V3E+pqK1tSl2Fo1kl41pK1yeCyDsgkF9WlVAme4j5ISYM2zR11bgLFJGLN5sVK40T4RJNuiZbEjA==}
+  /@types/node@20.11.23:
+    resolution: {integrity: sha512-ZUarKKfQuRILSNYt32FuPL20HS7XwNT7/uRwSV8tiHWfyyVwDLYZNF6DZKc2bove++pgfsXn9sUwII/OsQ82cQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1014,8 +1014,8 @@ packages:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
     dev: true
 
-  /@types/react@18.2.60:
-    resolution: {integrity: sha512-dfiPj9+k20jJrLGOu9Nf6eqxm2EyJRrq2NvwOFsfbb7sFExZ9WELPs67UImHj3Ayxg8ruTtKtNnbjaF8olPq0A==}
+  /@types/react@18.2.61:
+    resolution: {integrity: sha512-NURTN0qNnJa7O/k4XUkEW2yfygA+NxS0V5h1+kp9jPwhzZy95q3ADoGMP0+JypMhrZBTTgjKAUlTctde1zzeQA==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -3222,7 +3222,7 @@ packages:
       detect-newline: 3.1.0
     dev: true
 
-  /jotai@2.7.0(@preact/compat@17.1.2)(@types/react@18.2.60):
+  /jotai@2.7.0(@preact/compat@17.1.2)(@types/react@18.2.61):
     resolution: {integrity: sha512-4qsyFKu4MprI39rj2uoItyhu24NoCHzkOV7z70PQr65SpzV6CSyhQvVIfbNlNqOIOspNMdf5OK+kTXLvqe63Jw==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
@@ -3234,7 +3234,7 @@ packages:
       react:
         optional: true
     dependencies:
-      '@types/react': 18.2.60
+      '@types/react': 18.2.61
       react: /@preact/compat@17.1.2(preact@10.19.6)
     dev: true
 
@@ -5198,7 +5198,7 @@ packages:
     resolution: {integrity: sha512-4712oAokHUafx+ne+Ea9Y26fBSay5jUwoZDmYOWCDzqBJBPXXdNnCpVgB637xoJP4Vsv+45WNE834SEJLNL6HA==}
     dev: true
 
-  /vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2)(@types/react@18.2.60)(rollup@4.12.0)(vite@5.1.4):
+  /vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2)(@types/react@18.2.61)(rollup@4.12.0)(vite@5.1.4):
     resolution: {integrity: sha512-nhEo9LciS9Kjg6XhzpsWeYbhBRk9qEIMWX8mXNMrTrnA0d4eF5eWnk8vA4owZhiLiEsYvaG7XtM8CkZa1d/a5Q==}
     hasBin: true
     peerDependencies:
@@ -5213,7 +5213,7 @@ packages:
       gray-matter: 4.0.3
       html-minifier-terser: 7.2.0
       jest-docblock: 29.7.0
-      jotai: 2.7.0(@preact/compat@17.1.2)(@types/react@18.2.60)
+      jotai: 2.7.0(@preact/compat@17.1.2)(@types/react@18.2.61)
       mdast-util-to-string: 4.0.0
       mini-debounce: 1.0.8
       minimist: 1.2.8
@@ -5228,7 +5228,7 @@ packages:
       ts-morph: 21.0.1
       typescript: 5.3.3
       unist-util-visit: 5.0.0
-      vite: 5.1.4(@types/node@20.11.22)
+      vite: 5.1.4(@types/node@20.11.23)
     transitivePeerDependencies:
       - '@types/react'
       - react
@@ -5236,7 +5236,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite@5.1.4(@types/node@20.11.22):
+  /vite@5.1.4(@types/node@20.11.23):
     resolution: {integrity: sha512-n+MPqzq+d9nMVTKyewqw6kSt+R3CkvF9QAKY8obiQn8g1fwTscKxyfaYnC632HtBXAQGc1Yjomphwn1dtwGAHg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -5264,7 +5264,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.22
+      '@types/node': 20.11.23
       esbuild: 0.19.12
       postcss: 8.4.35
       rollup: 4.12.0
