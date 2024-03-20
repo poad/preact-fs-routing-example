@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "preact": "^10.19.6",
+    "preact": "^10.19.7",
     "preact-render-to-string": "^6.4.0",
     "react": "npm:@preact/compat@^17.1.2",
     "react-dom": "npm:@preact/compat@^17.1.2",
@@ -28,10 +28,10 @@
   "devDependencies": {
     "@mdx-js/react": "^3.0.1",
     "@preact/preset-vite": "^2.8.2",
-    "@types/node": "^20.11.28",
-    "@types/react": "^18.2.66",
-    "@typescript-eslint/eslint-plugin": "^7.2.0",
-    "@typescript-eslint/parser": "^7.2.0",
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.67",
+    "@typescript-eslint/eslint-plugin": "^7.3.1",
+    "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-prettier": "^9.1.0",
