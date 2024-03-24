@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "preact": "^10.20.0",
+    "preact": "^10.20.1",
     "preact-render-to-string": "^6.4.1",
     "react": "npm:@preact/compat@^17.1.2",
     "react-dom": "npm:@preact/compat@^17.1.2",
@@ -29,7 +29,7 @@
     "@mdx-js/react": "^3.0.1",
     "@preact/preset-vite": "^2.8.2",
     "@types/node": "^20.11.30",
-    "@types/react": "^18.2.67",
+    "@types/react": "^18.2.69",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
@@ -46,7 +46,7 @@
     "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
     "serve": "^14.2.1",
-    "vite": "^5.2.2",
+    "vite": "^5.2.4",
     "vite-pages-theme-doc": "^5.0.0",
     "vite-plugin-react-pages": "^5.0.0"
   }
