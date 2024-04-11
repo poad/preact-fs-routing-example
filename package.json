@@ -29,7 +29,7 @@
     "@mdx-js/react": "^3.0.1",
     "@preact/preset-vite": "^2.8.2",
     "@types/node": "^20.12.7",
-    "@types/react": "^18.2.75",
+    "@types/react": "^18.2.77",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "@typescript-eslint/parser": "^7.6.0",
     "eslint": "^9.0.0",
