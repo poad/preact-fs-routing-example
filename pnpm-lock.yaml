@@ -29,10 +29,10 @@ importers:
         version: 3.0.1(@preact/compat@17.1.2(preact@10.22.0))(@types/react@18.3.3)
       '@preact/preset-vite':
         specifier: ^2.8.2
-        version: 2.8.2(@babel/core@7.24.6)(preact@10.22.0)(vite@5.2.12(@types/node@20.12.12)(terser@5.31.0))
+        version: 2.8.2(@babel/core@7.24.6)(preact@10.22.0)(vite@5.2.12(@types/node@20.12.13)(terser@5.31.0))
       '@types/node':
-        specifier: ^20.12.12
-        version: 20.12.12
+        specifier: ^20.12.13
+        version: 20.12.13
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -80,13 +80,13 @@ importers:
         version: 14.2.3
       vite:
         specifier: ^5.2.12
-        version: 5.2.12(@types/node@20.12.12)(terser@5.31.0)
+        version: 5.2.12(@types/node@20.12.13)(terser@5.31.0)
       vite-pages-theme-doc:
         specifier: ^5.0.0
         version: 5.0.0
       vite-plugin-react-pages:
         specifier: ^5.0.0
-        version: 5.0.0(@preact/compat@17.1.2(preact@10.22.0))(@types/react@18.3.3)(rollup@4.18.0)(vite@5.2.12(@types/node@20.12.12)(terser@5.31.0))
+        version: 5.0.0(@preact/compat@17.1.2(preact@10.22.0))(@types/react@18.3.3)(rollup@4.18.0)(vite@5.2.12(@types/node@20.12.13)(terser@5.31.0))
 
 packages:
 
@@ -594,8 +594,8 @@ packages:
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
 
-  '@types/node@20.12.12':
-    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
+  '@types/node@20.12.13':
+    resolution: {integrity: sha512-gBGeanV41c1L171rR7wjbMiEpEI/l5XFQdLLfhr/REwpgDy/4U8y89+i8kRiLzDyZdOkXh+cRaTetUnCYutoXA==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -1041,8 +1041,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.4.783:
-    resolution: {integrity: sha512-bT0jEz/Xz1fahQpbZ1D7LgmPYZ3iHVY39NcWWro1+hA2IvjiPeaXtfSqrQ+nXjApMvQRE2ASt1itSLRrebHMRQ==}
+  electron-to-chromium@1.4.786:
+    resolution: {integrity: sha512-i/A2UB0sxYViMN0M2zIotQFRIOt1jLuVXudACHBDiJ5gGuAUzf/crZxwlBTdA0O52Hy4CNtTzS7AKRAacs/08Q==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3002,12 +3002,12 @@ snapshots:
     dependencies:
       preact: 10.22.0
 
-  '@preact/preset-vite@2.8.2(@babel/core@7.24.6)(preact@10.22.0)(vite@5.2.12(@types/node@20.12.12)(terser@5.31.0))':
+  '@preact/preset-vite@2.8.2(@babel/core@7.24.6)(preact@10.22.0)(vite@5.2.12(@types/node@20.12.13)(terser@5.31.0))':
     dependencies:
       '@babel/core': 7.24.6
       '@babel/plugin-transform-react-jsx': 7.24.6(@babel/core@7.24.6)
       '@babel/plugin-transform-react-jsx-development': 7.24.6(@babel/core@7.24.6)
-      '@prefresh/vite': 2.4.5(preact@10.22.0)(vite@5.2.12(@types/node@20.12.12)(terser@5.31.0))
+      '@prefresh/vite': 2.4.5(preact@10.22.0)(vite@5.2.12(@types/node@20.12.13)(terser@5.31.0))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.24.6)
       debug: 4.3.4
@@ -3017,7 +3017,7 @@ snapshots:
       resolve: 1.22.8
       source-map: 0.7.4
       stack-trace: 1.0.0-pre2
-      vite: 5.2.12(@types/node@20.12.12)(terser@5.31.0)
+      vite: 5.2.12(@types/node@20.12.13)(terser@5.31.0)
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -3030,7 +3030,7 @@ snapshots:
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.5(preact@10.22.0)(vite@5.2.12(@types/node@20.12.12)(terser@5.31.0))':
+  '@prefresh/vite@2.4.5(preact@10.22.0)(vite@5.2.12(@types/node@20.12.13)(terser@5.31.0))':
     dependencies:
       '@babel/core': 7.24.6
       '@prefresh/babel-plugin': 0.5.1
@@ -3038,7 +3038,7 @@ snapshots:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.22.0
-      vite: 5.2.12(@types/node@20.12.12)(terser@5.31.0)
+      vite: 5.2.12(@types/node@20.12.13)(terser@5.31.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3140,7 +3140,7 @@ snapshots:
 
   '@types/ms@0.7.34': {}
 
-  '@types/node@20.12.12':
+  '@types/node@20.12.13':
     dependencies:
       undici-types: 5.26.5
 
@@ -3417,7 +3417,7 @@ snapshots:
   browserslist@4.23.0:
     dependencies:
       caniuse-lite: 1.0.30001625
-      electron-to-chromium: 1.4.783
+      electron-to-chromium: 1.4.786
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.0)
 
@@ -3648,7 +3648,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.4.783: {}
+  electron-to-chromium@1.4.786: {}
 
   emoji-regex@8.0.0: {}
 
@@ -5718,7 +5718,7 @@ snapshots:
 
   vite-pages-theme-doc@5.0.0: {}
 
-  vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2(preact@10.22.0))(@types/react@18.3.3)(rollup@4.18.0)(vite@5.2.12(@types/node@20.12.12)(terser@5.31.0)):
+  vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2(preact@10.22.0))(@types/react@18.3.3)(rollup@4.18.0)(vite@5.2.12(@types/node@20.12.13)(terser@5.31.0)):
     dependencies:
       '@mdx-js/rollup': 3.0.1(rollup@4.18.0)
       chalk: 4.1.2
@@ -5744,20 +5744,20 @@ snapshots:
       ts-morph: 21.0.1
       typescript: 5.4.5
       unist-util-visit: 5.0.0
-      vite: 5.2.12(@types/node@20.12.12)(terser@5.31.0)
+      vite: 5.2.12(@types/node@20.12.13)(terser@5.31.0)
     transitivePeerDependencies:
       - '@types/react'
       - react
       - rollup
       - supports-color
 
-  vite@5.2.12(@types/node@20.12.12)(terser@5.31.0):
+  vite@5.2.12(@types/node@20.12.13)(terser@5.31.0):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.18.0
     optionalDependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
       fsevents: 2.3.3
       terser: 5.31.0
 
