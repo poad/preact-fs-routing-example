@@ -23,7 +23,7 @@
     "preact-render-to-string": "^6.5.5",
     "react": "npm:@preact/compat@^17.1.2",
     "react-dom": "npm:@preact/compat@^17.1.2",
-    "react-router-dom": "^6.24.0"
+    "react-router-dom": "^6.24.1"
   },
   "devDependencies": {
     "@mdx-js/react": "^3.0.1",
