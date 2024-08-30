@@ -26,7 +26,7 @@ importers:
     devDependencies:
       '@mdx-js/react':
         specifier: ^3.0.1
-        version: 3.0.1(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.4)
+        version: 3.0.1(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.5)
       '@preact/preset-vite':
         specifier: ^2.9.0
         version: 2.9.0(@babel/core@7.25.2)(preact@10.23.2)(vite@5.4.2(@types/node@22.5.1)(terser@5.31.6))
@@ -34,8 +34,8 @@ importers:
         specifier: ^22.5.1
         version: 22.5.1
       '@types/react':
-        specifier: ^18.3.4
-        version: 18.3.4
+        specifier: ^18.3.5
+        version: 18.3.5
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.3.0
         version: 8.3.0(@typescript-eslint/parser@8.3.0(eslint@9.9.1)(typescript@5.5.4))(eslint@9.9.1)(typescript@5.5.4)
@@ -86,7 +86,7 @@ importers:
         version: 5.0.0
       vite-plugin-react-pages:
         specifier: ^5.0.0
-        version: 5.0.0(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.4)(rollup@4.21.2)(vite@5.4.2(@types/node@22.5.1)(terser@5.31.6))
+        version: 5.0.0(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.5)(rollup@4.21.2)(vite@5.4.2(@types/node@22.5.1)(terser@5.31.6))
 
 packages:
 
@@ -589,8 +589,8 @@ packages:
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
 
-  '@types/react@18.3.4':
-    resolution: {integrity: sha512-J7W30FTdfCxDDjmfRM+/JqLHBIyl7xUIp9kwK637FGmY7+mkSFSe6L4jpZzhj5QMfLssSDP4/i75AKkrdC7/Jw==}
+  '@types/react@18.3.5':
+    resolution: {integrity: sha512-WeqMfGJLGuLCqHGYRGHxnKrXcTitc6L/nBUWfWPcTarG3t9PsquqUMuVeXZeca+mglY4Vo5GZjCi0A3Or2lnxA==}
 
   '@types/unist@2.0.11':
     resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
@@ -2411,8 +2411,8 @@ packages:
   style-to-object@0.4.4:
     resolution: {integrity: sha512-HYNoHZa2GorYNyqiCaBgsxvcJIn7OHq6inEga+E6Ke3m5JkoqpQbnFssk4jwe+K7AhGa2fcha4wSOf1Kn01dMg==}
 
-  style-to-object@1.0.6:
-    resolution: {integrity: sha512-khxq+Qm3xEyZfKd/y9L3oIWQimxuc4STrQKtQn8aSDRHb8mFgpukgX1hdzfrMEW6JCjyJ8p89x+IUMVnCBI1PA==}
+  style-to-object@1.0.7:
+    resolution: {integrity: sha512-uSjr59G5u6fbxUfKbb8GcqMGT3Xs9v5IbPkjb0S16GyOeBLAzSRK0CixBv5YrYvzO6TDLzIS6QCn78tkqWngPw==}
 
   supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
@@ -2956,10 +2956,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@mdx-js/react@3.0.1(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.4)':
+  '@mdx-js/react@3.0.1(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.5)':
     dependencies:
       '@types/mdx': 2.0.13
-      '@types/react': 18.3.4
+      '@types/react': 18.3.5
       react: '@preact/compat@17.1.2(preact@10.23.2)'
 
   '@mdx-js/rollup@3.0.1(rollup@4.21.2)':
@@ -3138,7 +3138,7 @@ snapshots:
 
   '@types/prop-types@15.7.12': {}
 
-  '@types/react@18.3.4':
+  '@types/react@18.3.5':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -4196,7 +4196,7 @@ snapshots:
       mdast-util-mdxjs-esm: 2.0.1
       property-information: 6.5.0
       space-separated-tokens: 2.0.2
-      style-to-object: 1.0.6
+      style-to-object: 1.0.7
       unist-util-position: 5.0.0
       vfile-message: 4.0.2
     transitivePeerDependencies:
@@ -4398,9 +4398,9 @@ snapshots:
     dependencies:
       detect-newline: 3.1.0
 
-  jotai@2.9.3(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.4):
+  jotai@2.9.3(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.5):
     optionalDependencies:
-      '@types/react': 18.3.4
+      '@types/react': 18.3.5
       react: '@preact/compat@17.1.2(preact@10.23.2)'
 
   js-tokens@4.0.0: {}
@@ -5522,7 +5522,7 @@ snapshots:
     dependencies:
       inline-style-parser: 0.1.1
 
-  style-to-object@1.0.6:
+  style-to-object@1.0.7:
     dependencies:
       inline-style-parser: 0.2.3
 
@@ -5694,7 +5694,7 @@ snapshots:
 
   vite-pages-theme-doc@5.0.0: {}
 
-  vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.4)(rollup@4.21.2)(vite@5.4.2(@types/node@22.5.1)(terser@5.31.6)):
+  vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.5)(rollup@4.21.2)(vite@5.4.2(@types/node@22.5.1)(terser@5.31.6)):
     dependencies:
       '@mdx-js/rollup': 3.0.1(rollup@4.21.2)
       chalk: 4.1.2
@@ -5705,7 +5705,7 @@ snapshots:
       gray-matter: 4.0.3
       html-minifier-terser: 7.2.0
       jest-docblock: 29.7.0
-      jotai: 2.9.3(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.4)
+      jotai: 2.9.3(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.5)
       mdast-util-to-string: 4.0.0
       mini-debounce: 1.0.8
       minimist: 1.2.8
