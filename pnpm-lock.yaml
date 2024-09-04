@@ -29,10 +29,10 @@ importers:
         version: 3.0.1(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.5)
       '@preact/preset-vite':
         specifier: ^2.9.0
-        version: 2.9.0(@babel/core@7.25.2)(preact@10.23.2)(vite@5.4.2(@types/node@22.5.2)(terser@5.31.6))
+        version: 2.9.0(@babel/core@7.25.2)(preact@10.23.2)(vite@5.4.3(@types/node@22.5.3)(terser@5.31.6))
       '@types/node':
-        specifier: ^22.5.2
-        version: 22.5.2
+        specifier: ^22.5.3
+        version: 22.5.3
       '@types/react':
         specifier: ^18.3.5
         version: 18.3.5
@@ -64,8 +64,8 @@ importers:
         specifier: ^7.1.0
         version: 7.1.0(eslint@9.9.1)
       eslint-plugin-react:
-        specifier: ^7.35.1
-        version: 7.35.1(eslint@9.9.1)
+        specifier: ^7.35.2
+        version: 7.35.2(eslint@9.9.1)
       eslint-plugin-react-hooks:
         specifier: ^4.6.2
         version: 4.6.2(eslint@9.9.1)
@@ -79,14 +79,14 @@ importers:
         specifier: ^14.2.3
         version: 14.2.3
       vite:
-        specifier: ^5.4.2
-        version: 5.4.2(@types/node@22.5.2)(terser@5.31.6)
+        specifier: ^5.4.3
+        version: 5.4.3(@types/node@22.5.3)(terser@5.31.6)
       vite-pages-theme-doc:
         specifier: ^5.0.0
         version: 5.0.0
       vite-plugin-react-pages:
         specifier: ^5.0.0
-        version: 5.0.0(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.5)(rollup@4.21.2)(vite@5.4.2(@types/node@22.5.2)(terser@5.31.6))
+        version: 5.0.0(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.5)(rollup@4.21.2)(vite@5.4.3(@types/node@22.5.3)(terser@5.31.6))
 
 packages:
 
@@ -586,8 +586,8 @@ packages:
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
 
-  '@types/node@22.5.2':
-    resolution: {integrity: sha512-acJsPTEqYqulZS/Yp/S3GgeE6GZ0qYODUR8aVr/DkhHQ8l9nd4j5x1/ZJy9/gHrRlFMqkO6i0I3E27Alu4jjPg==}
+  '@types/node@22.5.3':
+    resolution: {integrity: sha512-njripolh85IA9SQGTAqbmnNZTdxv7X/4OYGPz8tgy5JDr8MP+uDBa921GpYEoDDnwm0Hmn5ZPeJgiiSTPoOzkQ==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -1169,8 +1169,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
 
-  eslint-plugin-react@7.35.1:
-    resolution: {integrity: sha512-B5ok2JgbaaWn/zXbKCGgKDNL2tsID3Pd/c/yvjcpsd9HQDwyYc/TQv3AZMmOvrJgCs3AnYNUHRCQEMMQAYJ7Yg==}
+  eslint-plugin-react@7.35.2:
+    resolution: {integrity: sha512-Rbj2R9zwP2GYNcIak4xoAMV57hrBh3hTaR0k7hVjwCQgryE/pw5px4b13EYjduOI0hfXyZhwBxaGpOTbWSGzKQ==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
@@ -2112,8 +2112,8 @@ packages:
     resolution: {integrity: sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==}
     engines: {node: '>= 0.4'}
 
-  postcss@8.4.44:
-    resolution: {integrity: sha512-Aweb9unOEpQ3ezu4Q00DPvvM2ZTUitJdNKeP/+uQgr1IBIqu574IaZoURId7BKtWMREwzKa9OgzPzezWGPWFQw==}
+  postcss@8.4.45:
+    resolution: {integrity: sha512-7KTLTdzdZZYscUc65XmjFiB73vBhBfbPztCYdUNvlaso9PrzjzcmjqBPR0lNGkcVlcO4BjiO5rK/qNz+XAen1Q==}
     engines: {node: ^10 || ^12 || >=14}
 
   preact-render-to-string@6.5.10:
@@ -2564,8 +2564,8 @@ packages:
     peerDependencies:
       vite: ^5.0.0
 
-  vite@5.4.2:
-    resolution: {integrity: sha512-dDrQTRHp5C1fTFzcSaMxjk6vdpKvT+2/mIdE07Gw2ykehT49O0z/VHS3zZ8iV/Gh8BJJKHWOe5RjaNrW5xf/GA==}
+  vite@5.4.3:
+    resolution: {integrity: sha512-IH+nl64eq9lJjFqU+/yrRnrHPVTlgy42/+IzbOdaFDVlyLgI/wDlf+FCobXLX1cT0X5+7LMyH1mIy2xJdLfo8Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -2996,13 +2996,13 @@ snapshots:
     dependencies:
       preact: 10.23.2
 
-  '@preact/preset-vite@2.9.0(@babel/core@7.25.2)(preact@10.23.2)(vite@5.4.2(@types/node@22.5.2)(terser@5.31.6))':
+  '@preact/preset-vite@2.9.0(@babel/core@7.25.2)(preact@10.23.2)(vite@5.4.3(@types/node@22.5.3)(terser@5.31.6))':
     dependencies:
       '@babel/code-frame': 7.24.7
       '@babel/core': 7.25.2
       '@babel/plugin-transform-react-jsx': 7.25.2(@babel/core@7.25.2)
       '@babel/plugin-transform-react-jsx-development': 7.24.7(@babel/core@7.25.2)
-      '@prefresh/vite': 2.4.6(preact@10.23.2)(vite@5.4.2(@types/node@22.5.2)(terser@5.31.6))
+      '@prefresh/vite': 2.4.6(preact@10.23.2)(vite@5.4.3(@types/node@22.5.3)(terser@5.31.6))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.25.2)
       debug: 4.3.6
@@ -3012,7 +3012,7 @@ snapshots:
       resolve: 1.22.8
       source-map: 0.7.4
       stack-trace: 1.0.0-pre2
-      vite: 5.4.2(@types/node@22.5.2)(terser@5.31.6)
+      vite: 5.4.3(@types/node@22.5.3)(terser@5.31.6)
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -3025,7 +3025,7 @@ snapshots:
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.6(preact@10.23.2)(vite@5.4.2(@types/node@22.5.2)(terser@5.31.6))':
+  '@prefresh/vite@2.4.6(preact@10.23.2)(vite@5.4.3(@types/node@22.5.3)(terser@5.31.6))':
     dependencies:
       '@babel/core': 7.25.2
       '@prefresh/babel-plugin': 0.5.1
@@ -3033,7 +3033,7 @@ snapshots:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.23.2
-      vite: 5.4.2(@types/node@22.5.2)(terser@5.31.6)
+      vite: 5.4.3(@types/node@22.5.3)(terser@5.31.6)
     transitivePeerDependencies:
       - supports-color
 
@@ -3137,7 +3137,7 @@ snapshots:
 
   '@types/ms@0.7.34': {}
 
-  '@types/node@22.5.2':
+  '@types/node@22.5.3':
     dependencies:
       undici-types: 6.19.8
 
@@ -3861,7 +3861,7 @@ snapshots:
     dependencies:
       eslint: 9.9.1
 
-  eslint-plugin-react@7.35.1(eslint@9.9.1):
+  eslint-plugin-react@7.35.2(eslint@9.9.1):
     dependencies:
       array-includes: 3.1.8
       array.prototype.findlast: 1.2.5
@@ -5136,7 +5136,7 @@ snapshots:
 
   possible-typed-array-names@1.0.0: {}
 
-  postcss@8.4.44:
+  postcss@8.4.45:
     dependencies:
       nanoid: 3.3.7
       picocolors: 1.1.0
@@ -5702,7 +5702,7 @@ snapshots:
 
   vite-pages-theme-doc@5.0.0: {}
 
-  vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.5)(rollup@4.21.2)(vite@5.4.2(@types/node@22.5.2)(terser@5.31.6)):
+  vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2(preact@10.23.2))(@types/react@18.3.5)(rollup@4.21.2)(vite@5.4.3(@types/node@22.5.3)(terser@5.31.6)):
     dependencies:
       '@mdx-js/rollup': 3.0.1(rollup@4.21.2)
       chalk: 4.1.2
@@ -5728,20 +5728,20 @@ snapshots:
       ts-morph: 21.0.1
       typescript: 5.5.4
       unist-util-visit: 5.0.0
-      vite: 5.4.2(@types/node@22.5.2)(terser@5.31.6)
+      vite: 5.4.3(@types/node@22.5.3)(terser@5.31.6)
     transitivePeerDependencies:
       - '@types/react'
       - react
       - rollup
       - supports-color
 
-  vite@5.4.2(@types/node@22.5.2)(terser@5.31.6):
+  vite@5.4.3(@types/node@22.5.3)(terser@5.31.6):
     dependencies:
       esbuild: 0.21.5
-      postcss: 8.4.44
+      postcss: 8.4.45
       rollup: 4.21.2
     optionalDependencies:
-      '@types/node': 22.5.2
+      '@types/node': 22.5.3
       fsevents: 2.3.3
       terser: 5.31.6
 
