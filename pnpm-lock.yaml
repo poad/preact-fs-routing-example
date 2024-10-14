@@ -9,27 +9,27 @@ importers:
   .:
     dependencies:
       preact:
-        specifier: ^10.24.2
-        version: 10.24.2
+        specifier: ^10.24.3
+        version: 10.24.3
       preact-render-to-string:
         specifier: ^6.5.11
-        version: 6.5.11(preact@10.24.2)
+        version: 6.5.11(preact@10.24.3)
       react:
         specifier: npm:@preact/compat@^17.1.2
-        version: '@preact/compat@17.1.2(preact@10.24.2)'
+        version: '@preact/compat@17.1.2(preact@10.24.3)'
       react-dom:
         specifier: npm:@preact/compat@^17.1.2
-        version: '@preact/compat@17.1.2(preact@10.24.2)'
+        version: '@preact/compat@17.1.2(preact@10.24.3)'
       react-router-dom:
-        specifier: ^6.26.2
-        version: 6.26.2(@preact/compat@17.1.2(preact@10.24.2))(@preact/compat@17.1.2(preact@10.24.2))
+        specifier: ^6.27.0
+        version: 6.27.0(@preact/compat@17.1.2(preact@10.24.3))(@preact/compat@17.1.2(preact@10.24.3))
     devDependencies:
       '@mdx-js/react':
         specifier: ^3.0.1
-        version: 3.0.1(@preact/compat@17.1.2(preact@10.24.2))(@types/react@18.3.11)
+        version: 3.0.1(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.11)
       '@preact/preset-vite':
         specifier: ^2.9.1
-        version: 2.9.1(@babel/core@7.25.8)(preact@10.24.2)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))
+        version: 2.9.1(@babel/core@7.25.8)(preact@10.24.3)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))
       '@types/node':
         specifier: ^22.7.5
         version: 22.7.5
@@ -61,8 +61,8 @@ importers:
         specifier: ^7.37.1
         version: 7.37.1(eslint@9.12.0)
       eslint-plugin-react-hooks:
-        specifier: ^4.6.2
-        version: 4.6.2(eslint@9.12.0)
+        specifier: ^5.0.0
+        version: 5.0.0(eslint@9.12.0)
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -83,7 +83,7 @@ importers:
         version: 5.0.0
       vite-plugin-react-pages:
         specifier: ^5.0.0
-        version: 5.0.0(@preact/compat@17.1.2(preact@10.24.2))(@types/react@18.3.11)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))
+        version: 5.0.0(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.11)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))
 
 packages:
 
@@ -465,8 +465,8 @@ packages:
       preact: ^10.4.0
       vite: '>=2.0.0'
 
-  '@remix-run/router@1.19.2':
-    resolution: {integrity: sha512-baiMx18+IMuD1yyvOGaHM9QrVUPGGG0jC+z+IPHnRJWUAUvaKuWKyE8gjDj2rzv3sz9zOGoRSPgeBVHRhZnBlA==}
+  '@remix-run/router@1.20.0':
+    resolution: {integrity: sha512-mUnk8rPJBI9loFDZ+YzPGdeniYK+FTmRD1TMCz7ev2SNIozyKKpnGgsxO34u6Z4z/t0ITuu7voi/AshfsGsgFg==}
     engines: {node: '>=14.0.0'}
 
   '@rollup/pluginutils@4.2.1':
@@ -1175,11 +1175,11 @@ packages:
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
 
-  eslint-plugin-react-hooks@4.6.2:
-    resolution: {integrity: sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==}
+  eslint-plugin-react-hooks@5.0.0:
+    resolution: {integrity: sha512-hIOwI+5hYGpJEc4uPRmz2ulCjAGD/N13Lukkh8cLV0i2IRk/bdZDYjgLVHj+U9Z704kLIdIO6iueGvxNur0sgw==}
     engines: {node: '>=10'}
     peerDependencies:
-      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
   eslint-plugin-react@7.37.1:
     resolution: {integrity: sha512-xwTnwDqzbDRA8uJ7BMxPs/EXRB3i8ZfnOIp8BsxEQkT0nHPp+WWceqGgo6rKb9ctNi8GJLDT4Go5HAWELa/WMg==}
@@ -1433,8 +1433,8 @@ packages:
   hast-util-to-estree@3.1.0:
     resolution: {integrity: sha512-lfX5g6hqVh9kjS/B9E2gSkvHH4SZNiQFiqWS0x9fENzEl+8W12RqdRxX6d/Cwxi30tPQs3bIO+aolQJNp1bIyw==}
 
-  hast-util-to-jsx-runtime@2.3.0:
-    resolution: {integrity: sha512-H/y0+IWPdsLLS738P8tDnrQ8Z+dj12zQQ6WC11TIM21C8WFVoIxcqWXf2H3hiTVZjF1AWqoimGwrTWecWrnmRQ==}
+  hast-util-to-jsx-runtime@2.3.1:
+    resolution: {integrity: sha512-Rbemi1rzrkysSin0FDHZfsxYPoqLGHFfxFm28aOBHPibT7aqjy7kUgY636se9xbuCWUsFpWAYlmtGHQakiqtEA==}
 
   hast-util-to-string@3.0.1:
     resolution: {integrity: sha512-XelQVTDWvqcl3axRfI0xSeoVKzyIFPwsAGSLIsKdJKQMXDYJS4WYrBNF/8J7RdhIcFI2BOHgAifggsvsxp/3+A==}
@@ -2127,8 +2127,8 @@ packages:
     peerDependencies:
       preact: '>=10'
 
-  preact@10.24.2:
-    resolution: {integrity: sha512-1cSoF0aCC8uaARATfrlz4VCBqE8LwZwRfLgkxJOQwAlQt6ayTmi0D9OF7nXid1POI5SZidFuG9CnlXbDfLqY/Q==}
+  preact@10.24.3:
+    resolution: {integrity: sha512-Z2dPnBnMUfyQfSQ+GBdsGa16hz35YmLmtTLhM169uW944hYL6xzTYkJjC07j+Wosz733pMWx0fgON3JNw1jJQA==}
 
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -2166,15 +2166,15 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react-router-dom@6.26.2:
-    resolution: {integrity: sha512-z7YkaEW0Dy35T3/QKPYB1LjMK2R1fxnHO8kWpUMTBdfVzZrWOiY9a7CtN8HqdWtDUWd5FY6Dl8HFsqVwH4uOtQ==}
+  react-router-dom@6.27.0:
+    resolution: {integrity: sha512-+bvtFWMC0DgAFrfKXKG9Fc+BcXWRUO1aJIihbB79xaeq0v5UzfvnM5houGUm1Y461WVRcgAQ+Clh5rdb1eCx4g==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
 
-  react-router@6.26.2:
-    resolution: {integrity: sha512-tvN1iuT03kHgOFnLPfLJ8V95eijteveqdOSk+srqfePtQvqCExB8eHOYnlilbOcyJyKnYkr1vJvf7YqotAJu1A==}
+  react-router@6.27.0:
+    resolution: {integrity: sha512-YA+HGZXz4jaAkVoYBE98VQl+nVzI+cVI2Oj/06F5ZM+0u3TgedN9Y9kmMRo2mnkSK2nCpNQn0DVob4HCsY/WLw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
@@ -2972,7 +2972,7 @@ snapshots:
       estree-util-to-js: 2.0.0
       estree-walker: 3.0.3
       hast-util-to-estree: 3.1.0
-      hast-util-to-jsx-runtime: 2.3.0
+      hast-util-to-jsx-runtime: 2.3.1
       markdown-extensions: 2.0.0
       periscopic: 3.1.0
       remark-mdx: 3.0.1
@@ -2987,11 +2987,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@mdx-js/react@3.0.1(@preact/compat@17.1.2(preact@10.24.2))(@types/react@18.3.11)':
+  '@mdx-js/react@3.0.1(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.11)':
     dependencies:
       '@types/mdx': 2.0.13
       '@types/react': 18.3.11
-      react: '@preact/compat@17.1.2(preact@10.24.2)'
+      react: '@preact/compat@17.1.2(preact@10.24.3)'
 
   '@mdx-js/rollup@3.0.1(rollup@4.24.0)':
     dependencies:
@@ -3017,17 +3017,17 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@preact/compat@17.1.2(preact@10.24.2)':
+  '@preact/compat@17.1.2(preact@10.24.3)':
     dependencies:
-      preact: 10.24.2
+      preact: 10.24.3
 
-  '@preact/preset-vite@2.9.1(@babel/core@7.25.8)(preact@10.24.2)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))':
+  '@preact/preset-vite@2.9.1(@babel/core@7.25.8)(preact@10.24.3)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))':
     dependencies:
       '@babel/code-frame': 7.25.7
       '@babel/core': 7.25.8
       '@babel/plugin-transform-react-jsx': 7.25.7(@babel/core@7.25.8)
       '@babel/plugin-transform-react-jsx-development': 7.25.7(@babel/core@7.25.8)
-      '@prefresh/vite': 2.4.6(preact@10.24.2)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))
+      '@prefresh/vite': 2.4.6(preact@10.24.3)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.25.8)
       debug: 4.3.7
@@ -3043,25 +3043,25 @@ snapshots:
 
   '@prefresh/babel-plugin@0.5.1': {}
 
-  '@prefresh/core@1.5.2(preact@10.24.2)':
+  '@prefresh/core@1.5.2(preact@10.24.3)':
     dependencies:
-      preact: 10.24.2
+      preact: 10.24.3
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.6(preact@10.24.2)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))':
+  '@prefresh/vite@2.4.6(preact@10.24.3)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))':
     dependencies:
       '@babel/core': 7.25.8
       '@prefresh/babel-plugin': 0.5.1
-      '@prefresh/core': 1.5.2(preact@10.24.2)
+      '@prefresh/core': 1.5.2(preact@10.24.3)
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
-      preact: 10.24.2
+      preact: 10.24.3
       vite: 5.4.8(@types/node@22.7.5)(terser@5.34.1)
     transitivePeerDependencies:
       - supports-color
 
-  '@remix-run/router@1.19.2': {}
+  '@remix-run/router@1.20.0': {}
 
   '@rollup/pluginutils@4.2.1':
     dependencies:
@@ -3884,7 +3884,7 @@ snapshots:
     dependencies:
       eslint: 9.12.0
 
-  eslint-plugin-react-hooks@4.6.2(eslint@9.12.0):
+  eslint-plugin-react-hooks@5.0.0(eslint@9.12.0):
     dependencies:
       eslint: 9.12.0
 
@@ -4216,7 +4216,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  hast-util-to-jsx-runtime@2.3.0:
+  hast-util-to-jsx-runtime@2.3.1:
     dependencies:
       '@types/estree': 1.0.6
       '@types/hast': 3.0.4
@@ -4428,10 +4428,10 @@ snapshots:
     dependencies:
       detect-newline: 3.1.0
 
-  jotai@2.10.0(@preact/compat@17.1.2(preact@10.24.2))(@types/react@18.3.11):
+  jotai@2.10.0(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.11):
     optionalDependencies:
       '@types/react': 18.3.11
-      react: '@preact/compat@17.1.2(preact@10.24.2)'
+      react: '@preact/compat@17.1.2(preact@10.24.3)'
 
   js-tokens@4.0.0: {}
 
@@ -5164,11 +5164,11 @@ snapshots:
       picocolors: 1.1.0
       source-map-js: 1.2.1
 
-  preact-render-to-string@6.5.11(preact@10.24.2):
+  preact-render-to-string@6.5.11(preact@10.24.3):
     dependencies:
-      preact: 10.24.2
+      preact: 10.24.3
 
-  preact@10.24.2: {}
+  preact@10.24.3: {}
 
   prelude-ls@1.2.1: {}
 
@@ -5199,17 +5199,17 @@ snapshots:
 
   react-is@16.13.1: {}
 
-  react-router-dom@6.26.2(@preact/compat@17.1.2(preact@10.24.2))(@preact/compat@17.1.2(preact@10.24.2)):
+  react-router-dom@6.27.0(@preact/compat@17.1.2(preact@10.24.3))(@preact/compat@17.1.2(preact@10.24.3)):
     dependencies:
-      '@remix-run/router': 1.19.2
-      react: '@preact/compat@17.1.2(preact@10.24.2)'
-      react-dom: '@preact/compat@17.1.2(preact@10.24.2)'
-      react-router: 6.26.2(@preact/compat@17.1.2(preact@10.24.2))
+      '@remix-run/router': 1.20.0
+      react: '@preact/compat@17.1.2(preact@10.24.3)'
+      react-dom: '@preact/compat@17.1.2(preact@10.24.3)'
+      react-router: 6.27.0(@preact/compat@17.1.2(preact@10.24.3))
 
-  react-router@6.26.2(@preact/compat@17.1.2(preact@10.24.2)):
+  react-router@6.27.0(@preact/compat@17.1.2(preact@10.24.3)):
     dependencies:
-      '@remix-run/router': 1.19.2
-      react: '@preact/compat@17.1.2(preact@10.24.2)'
+      '@remix-run/router': 1.20.0
+      react: '@preact/compat@17.1.2(preact@10.24.3)'
 
   readdirp@3.6.0:
     dependencies:
@@ -5735,7 +5735,7 @@ snapshots:
 
   vite-pages-theme-doc@5.0.0: {}
 
-  vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2(preact@10.24.2))(@types/react@18.3.11)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1)):
+  vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.11)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1)):
     dependencies:
       '@mdx-js/rollup': 3.0.1(rollup@4.24.0)
       chalk: 4.1.2
@@ -5746,7 +5746,7 @@ snapshots:
       gray-matter: 4.0.3
       html-minifier-terser: 7.2.0
       jest-docblock: 29.7.0
-      jotai: 2.10.0(@preact/compat@17.1.2(preact@10.24.2))(@types/react@18.3.11)
+      jotai: 2.10.0(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.11)
       mdast-util-to-string: 4.0.0
       mini-debounce: 1.0.8
       minimist: 1.2.8
