@@ -9,27 +9,27 @@ importers:
   .:
     dependencies:
       preact:
-        specifier: ^10.24.3
-        version: 10.24.3
+        specifier: ^10.25.0
+        version: 10.25.0
       preact-render-to-string:
         specifier: ^6.5.11
-        version: 6.5.11(preact@10.24.3)
+        version: 6.5.11(preact@10.25.0)
       react:
         specifier: npm:@preact/compat@^17.1.2
-        version: '@preact/compat@17.1.2(preact@10.24.3)'
+        version: '@preact/compat@17.1.2(preact@10.25.0)'
       react-dom:
         specifier: npm:@preact/compat@^17.1.2
-        version: '@preact/compat@17.1.2(preact@10.24.3)'
+        version: '@preact/compat@17.1.2(preact@10.25.0)'
       react-router-dom:
-        specifier: ^6.28.0
-        version: 6.28.0(@preact/compat@17.1.2(preact@10.24.3))(@preact/compat@17.1.2(preact@10.24.3))
+        specifier: ^7.0.0
+        version: 7.0.0(@preact/compat@17.1.2(preact@10.25.0))(@preact/compat@17.1.2(preact@10.25.0))
     devDependencies:
       '@mdx-js/react':
         specifier: ^3.1.0
-        version: 3.1.0(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.12)
+        version: 3.1.0(@preact/compat@17.1.2(preact@10.25.0))(@types/react@18.3.12)
       '@preact/preset-vite':
         specifier: ^2.9.1
-        version: 2.9.1(@babel/core@7.26.0)(preact@10.24.3)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0))
+        version: 2.9.1(@babel/core@7.26.0)(preact@10.25.0)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0))
       '@types/node':
         specifier: ^22.9.1
         version: 22.9.1
@@ -83,7 +83,7 @@ importers:
         version: 5.0.0
       vite-plugin-react-pages:
         specifier: ^5.0.0
-        version: 5.0.0(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.12)(acorn@8.14.0)(rollup@4.27.3)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0))
+        version: 5.0.0(@preact/compat@17.1.2(preact@10.25.0))(@types/react@18.3.12)(acorn@8.14.0)(rollup@4.27.3)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0))
 
 packages:
 
@@ -461,10 +461,6 @@ packages:
       preact: ^10.4.0
       vite: '>=2.0.0'
 
-  '@remix-run/router@1.21.0':
-    resolution: {integrity: sha512-xfSkCAchbdG5PnbrKqFWwia4Bi61nH+wm8wLEqfHDyp7Y3dZzgqS2itV8i4gAq9pC2HsTpwyBC6Ds8VHZ96JlA==}
-    engines: {node: '>=14.0.0'}
-
   '@rollup/pluginutils@4.2.1':
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
     engines: {node: '>= 8.0.0'}
@@ -576,6 +572,9 @@ packages:
 
   '@types/acorn@4.0.6':
     resolution: {integrity: sha512-veQTnWP+1D/xbxVrPC3zHnCZRjSrKfhbMUlEA43iMZLu7EsnTtkJklIuwrCPbOi8YkvDQAiW05VQQFvvz9oieQ==}
+
+  '@types/cookie@0.6.0':
+    resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
 
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
@@ -928,6 +927,10 @@ packages:
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
 
+  cookie@1.0.2:
+    resolution: {integrity: sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==}
+    engines: {node: '>=18'}
+
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
@@ -1031,8 +1034,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.63:
-    resolution: {integrity: sha512-ddeXKuY9BHo/mw145axlyWjlJ1UBt4WK3AlvkT7W2AbqfRQoacVoRUCF6wL3uIx/8wT9oLKXzI+rFqHHscByaA==}
+  electron-to-chromium@1.5.64:
+    resolution: {integrity: sha512-IXEuxU+5ClW2IGEYFC2T7szbyVgehupCWQe5GNh+H065CD6U6IFN0s4KeAMFGNmQolRU4IV7zGBWSYMmZ8uuqQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2120,8 +2123,8 @@ packages:
     peerDependencies:
       preact: '>=10'
 
-  preact@10.24.3:
-    resolution: {integrity: sha512-Z2dPnBnMUfyQfSQ+GBdsGa16hz35YmLmtTLhM169uW944hYL6xzTYkJjC07j+Wosz733pMWx0fgON3JNw1jJQA==}
+  preact@10.25.0:
+    resolution: {integrity: sha512-6bYnzlLxXV3OSpUxLdaxBmE7PMOu0aR3pG6lryK/0jmvcDFPlcXGQAt5DpK3RITWiDrfYZRI0druyaK/S9kYLg==}
 
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -2156,18 +2159,22 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react-router-dom@6.28.0:
-    resolution: {integrity: sha512-kQ7Unsl5YdyOltsPGl31zOjLrDv+m2VcIEcIHqYYD3Lp0UppLjrzcfJqDJwXxFw3TH/yvapbnUvPlAj7Kx5nbg==}
-    engines: {node: '>=14.0.0'}
+  react-router-dom@7.0.0:
+    resolution: {integrity: sha512-2QAxXpwgQuh423C64oZiV2cCKPCNUgZxcvZaS8O0PAHPZ/z8kTq7YbGD4KTNZm6Yj66d+HAfGkWPp8MCpdtD+Q==}
+    engines: {node: '>=20.0.0'}
     peerDependencies:
-      react: '>=16.8'
-      react-dom: '>=16.8'
+      react: '>=18'
+      react-dom: '>=18'
 
-  react-router@6.28.0:
-    resolution: {integrity: sha512-HrYdIFqdrnhDw0PqG/AKjAqEqM7AvxCz0DQ4h2W8k6nqmc5uRBYDag0SBxx9iYz5G8gnuNVLzUe13wl9eAsXXg==}
-    engines: {node: '>=14.0.0'}
+  react-router@7.0.0:
+    resolution: {integrity: sha512-1xf+yMVhUjAzZGY90ZnYJ9KVe1R8FggpugzRBkh+p6vl4cC1sHDe3nO+r5rxWTAgCMf8uN5hfoV2M7rLVTWPUA==}
+    engines: {node: '>=20.0.0'}
     peerDependencies:
-      react: '>=16.8'
+      react: '>=18'
+      react-dom: '>=18'
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
 
   readdirp@3.6.0:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
@@ -2305,6 +2312,9 @@ packages:
     resolution: {integrity: sha512-qy1S34PJ/fcY8gjVGszDB3EXiPSk5FKhUa7tQe0UPRddxRidc2V6cNHPNewbE1D7MAkgLuWEt3Vw56vYy73tzQ==}
     engines: {node: '>= 14'}
     hasBin: true
+
+  set-cookie-parser@2.7.1:
+    resolution: {integrity: sha512-IOc8uWeOZgnb3ptbCURJWNjWUPcO3ZnTTdzsurqERrP6nPyv+paC55vJM0LpOlT2ne+Ix+9+CRG1MNLlyZ4GjQ==}
 
   set-function-length@1.2.2:
     resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
@@ -2473,6 +2483,9 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
+  turbo-stream@2.4.0:
+    resolution: {integrity: sha512-FHncC10WpBd2eOmGwpmQsWLDoK4cqsA/UT/GqNoaKOQnT8uzhtCbg3EoUDMvqpOSAI0S26mr0rkjzbOO6S3v1g==}
+
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
@@ -2489,8 +2502,8 @@ packages:
     resolution: {integrity: sha512-3iMJ9q0ao7WE9tWcaYKIptkNBuOIcZCCT0d4MRvuuH88fEoEH62IuQe0OtraD3ebQEoTRk8XCBoknUNc1Y67pw==}
     engines: {node: '>= 0.4'}
 
-  typed-array-byte-offset@1.0.2:
-    resolution: {integrity: sha512-Ous0vodHa56FviZucS2E63zkgtgrACj7omjwd/8lTEMEPFFyjfixMZ1ZXenpgCFBBt4EC1J2XsyVS2gkG0eTFA==}
+  typed-array-byte-offset@1.0.3:
+    resolution: {integrity: sha512-GsvTyUHTriq6o/bHcTd0vM7OQ9JEdlvluu9YISaA7+KzDzPaIzEeDFNkTfhdE3MYcNhNi0vq/LlegYgIs5yPAw==}
     engines: {node: '>= 0.4'}
 
   typed-array-length@1.0.6:
@@ -2972,11 +2985,11 @@ snapshots:
       - acorn
       - supports-color
 
-  '@mdx-js/react@3.1.0(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.12)':
+  '@mdx-js/react@3.1.0(@preact/compat@17.1.2(preact@10.25.0))(@types/react@18.3.12)':
     dependencies:
       '@types/mdx': 2.0.13
       '@types/react': 18.3.12
-      react: '@preact/compat@17.1.2(preact@10.24.3)'
+      react: '@preact/compat@17.1.2(preact@10.25.0)'
 
   '@mdx-js/rollup@3.1.0(acorn@8.14.0)(rollup@4.27.3)':
     dependencies:
@@ -3003,17 +3016,17 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@preact/compat@17.1.2(preact@10.24.3)':
+  '@preact/compat@17.1.2(preact@10.25.0)':
     dependencies:
-      preact: 10.24.3
+      preact: 10.25.0
 
-  '@preact/preset-vite@2.9.1(@babel/core@7.26.0)(preact@10.24.3)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0))':
+  '@preact/preset-vite@2.9.1(@babel/core@7.26.0)(preact@10.25.0)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0))':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.26.0)
-      '@prefresh/vite': 2.4.6(preact@10.24.3)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0))
+      '@prefresh/vite': 2.4.6(preact@10.25.0)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.0)
       debug: 4.3.7
@@ -3029,25 +3042,23 @@ snapshots:
 
   '@prefresh/babel-plugin@0.5.1': {}
 
-  '@prefresh/core@1.5.3(preact@10.24.3)':
+  '@prefresh/core@1.5.3(preact@10.25.0)':
     dependencies:
-      preact: 10.24.3
+      preact: 10.25.0
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.6(preact@10.24.3)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0))':
+  '@prefresh/vite@2.4.6(preact@10.25.0)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0))':
     dependencies:
       '@babel/core': 7.26.0
       '@prefresh/babel-plugin': 0.5.1
-      '@prefresh/core': 1.5.3(preact@10.24.3)
+      '@prefresh/core': 1.5.3(preact@10.25.0)
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
-      preact: 10.24.3
+      preact: 10.25.0
       vite: 5.4.11(@types/node@22.9.1)(terser@5.36.0)
     transitivePeerDependencies:
       - supports-color
-
-  '@remix-run/router@1.21.0': {}
 
   '@rollup/pluginutils@4.2.1':
     dependencies:
@@ -3128,6 +3139,8 @@ snapshots:
   '@types/acorn@4.0.6':
     dependencies:
       '@types/estree': 1.0.6
+
+  '@types/cookie@0.6.0': {}
 
   '@types/debug@4.1.12':
     dependencies:
@@ -3420,7 +3433,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001683
-      electron-to-chromium: 1.5.63
+      electron-to-chromium: 1.5.64
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -3530,6 +3543,8 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
+  cookie@1.0.2: {}
+
   cross-spawn@7.0.6:
     dependencies:
       path-key: 3.1.1
@@ -3635,7 +3650,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.63: {}
+  electron-to-chromium@1.5.64: {}
 
   emoji-regex@8.0.0: {}
 
@@ -3692,7 +3707,7 @@ snapshots:
       string.prototype.trimstart: 1.0.8
       typed-array-buffer: 1.0.2
       typed-array-byte-length: 1.0.1
-      typed-array-byte-offset: 1.0.2
+      typed-array-byte-offset: 1.0.3
       typed-array-length: 1.0.6
       unbox-primitive: 1.0.2
       which-typed-array: 1.1.15
@@ -4412,10 +4427,10 @@ snapshots:
     dependencies:
       detect-newline: 3.1.0
 
-  jotai@2.10.3(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.12):
+  jotai@2.10.3(@preact/compat@17.1.2(preact@10.25.0))(@types/react@18.3.12):
     optionalDependencies:
       '@types/react': 18.3.12
-      react: '@preact/compat@17.1.2(preact@10.24.3)'
+      react: '@preact/compat@17.1.2(preact@10.25.0)'
 
   js-tokens@4.0.0: {}
 
@@ -5145,11 +5160,11 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preact-render-to-string@6.5.11(preact@10.24.3):
+  preact-render-to-string@6.5.11(preact@10.25.0):
     dependencies:
-      preact: 10.24.3
+      preact: 10.25.0
 
-  preact@10.24.3: {}
+  preact@10.25.0: {}
 
   prelude-ls@1.2.1: {}
 
@@ -5178,17 +5193,21 @@ snapshots:
 
   react-is@16.13.1: {}
 
-  react-router-dom@6.28.0(@preact/compat@17.1.2(preact@10.24.3))(@preact/compat@17.1.2(preact@10.24.3)):
+  react-router-dom@7.0.0(@preact/compat@17.1.2(preact@10.25.0))(@preact/compat@17.1.2(preact@10.25.0)):
     dependencies:
-      '@remix-run/router': 1.21.0
-      react: '@preact/compat@17.1.2(preact@10.24.3)'
-      react-dom: '@preact/compat@17.1.2(preact@10.24.3)'
-      react-router: 6.28.0(@preact/compat@17.1.2(preact@10.24.3))
+      react: '@preact/compat@17.1.2(preact@10.25.0)'
+      react-dom: '@preact/compat@17.1.2(preact@10.25.0)'
+      react-router: 7.0.0(@preact/compat@17.1.2(preact@10.25.0))(@preact/compat@17.1.2(preact@10.25.0))
 
-  react-router@6.28.0(@preact/compat@17.1.2(preact@10.24.3)):
+  react-router@7.0.0(@preact/compat@17.1.2(preact@10.25.0))(@preact/compat@17.1.2(preact@10.25.0)):
     dependencies:
-      '@remix-run/router': 1.21.0
-      react: '@preact/compat@17.1.2(preact@10.24.3)'
+      '@types/cookie': 0.6.0
+      cookie: 1.0.2
+      react: '@preact/compat@17.1.2(preact@10.25.0)'
+      set-cookie-parser: 2.7.1
+      turbo-stream: 2.4.0
+    optionalDependencies:
+      react-dom: '@preact/compat@17.1.2(preact@10.25.0)'
 
   readdirp@3.6.0:
     dependencies:
@@ -5438,6 +5457,8 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  set-cookie-parser@2.7.1: {}
+
   set-function-length@1.2.2:
     dependencies:
       define-data-property: 1.1.4
@@ -5617,6 +5638,8 @@ snapshots:
 
   tslib@2.8.1: {}
 
+  turbo-stream@2.4.0: {}
+
   type-check@0.4.0:
     dependencies:
       prelude-ls: 1.2.1
@@ -5637,7 +5660,7 @@ snapshots:
       has-proto: 1.0.3
       is-typed-array: 1.1.13
 
-  typed-array-byte-offset@1.0.2:
+  typed-array-byte-offset@1.0.3:
     dependencies:
       available-typed-arrays: 1.0.7
       call-bind: 1.0.7
@@ -5645,6 +5668,7 @@ snapshots:
       gopd: 1.0.1
       has-proto: 1.0.3
       is-typed-array: 1.1.13
+      reflect.getprototypeof: 1.0.6
 
   typed-array-length@1.0.6:
     dependencies:
@@ -5745,7 +5769,7 @@ snapshots:
 
   vite-pages-theme-doc@5.0.0: {}
 
-  vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.12)(acorn@8.14.0)(rollup@4.27.3)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0)):
+  vite-plugin-react-pages@5.0.0(@preact/compat@17.1.2(preact@10.25.0))(@types/react@18.3.12)(acorn@8.14.0)(rollup@4.27.3)(vite@5.4.11(@types/node@22.9.1)(terser@5.36.0)):
     dependencies:
       '@mdx-js/rollup': 3.1.0(acorn@8.14.0)(rollup@4.27.3)
       chalk: 4.1.2
@@ -5756,7 +5780,7 @@ snapshots:
       gray-matter: 4.0.3
       html-minifier-terser: 7.2.0
       jest-docblock: 29.7.0
-      jotai: 2.10.3(@preact/compat@17.1.2(preact@10.24.3))(@types/react@18.3.12)
+      jotai: 2.10.3(@preact/compat@17.1.2(preact@10.25.0))(@types/react@18.3.12)
       mdast-util-to-string: 4.0.0
       mini-debounce: 1.0.8
       minimist: 1.2.8
