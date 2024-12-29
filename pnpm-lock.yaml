@@ -37,6 +37,21 @@ importers:
       '@preact/preset-vite':
         specifier: ^2.9.3
         version: 2.9.3(@babel/core@7.26.0)(preact@10.25.4)(vite@6.0.6(@types/node@22.10.2)(terser@5.37.0))
+      '@stylistic/eslint-plugin':
+        specifier: ^2.12.1
+        version: 2.12.1(eslint@9.17.0)(typescript@5.7.2)
+      '@stylistic/eslint-plugin-js':
+        specifier: ^2.12.1
+        version: 2.12.1(eslint@9.17.0)
+      '@stylistic/eslint-plugin-jsx':
+        specifier: ^2.12.1
+        version: 2.12.1(eslint@9.17.0)
+      '@stylistic/eslint-plugin-plus':
+        specifier: ^2.12.1
+        version: 2.12.1(eslint@9.17.0)
+      '@stylistic/eslint-plugin-ts':
+        specifier: ^2.12.1
+        version: 2.12.1(eslint@9.17.0)(typescript@5.7.2)
       '@types/node':
         specifier: ^22.10.2
         version: 22.10.2
@@ -49,9 +64,6 @@ importers:
       eslint-config-import:
         specifier: ^0.13.0
         version: 0.13.0(eslint-plugin-import@2.31.0)
-      eslint-config-prettier:
-        specifier: ^9.1.0
-        version: 9.1.0(eslint@9.17.0)
       eslint-import-resolver-typescript:
         specifier: ^3.7.0
         version: 3.7.0(eslint-plugin-import@2.31.0)(eslint@9.17.0)
@@ -70,9 +82,6 @@ importers:
       eslint-plugin-react-hooks:
         specifier: ^5.1.0
         version: 5.1.0(eslint@9.17.0)
-      prettier:
-        specifier: ^3.4.2
-        version: 3.4.2
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -584,6 +593,35 @@ packages:
 
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
+
+  '@stylistic/eslint-plugin-js@2.12.1':
+    resolution: {integrity: sha512-5ybogtEgWIGCR6dMnaabztbWyVdAPDsf/5XOk6jBonWug875Q9/a6gm9QxnU3rhdyDEnckWKX7dduwYJMOWrVA==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: '>=8.40.0'
+
+  '@stylistic/eslint-plugin-jsx@2.12.1':
+    resolution: {integrity: sha512-VHqOF4bQ2iwUnRfmiP/CB3z3L9zFuV8Qi1q2fyEht7IjAt3IV/Ugm9EeSBPLcZd7ZjfISmWlcT1XbpnWIEFHEA==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: '>=8.40.0'
+
+  '@stylistic/eslint-plugin-plus@2.12.1':
+    resolution: {integrity: sha512-5eyCVo6h3ahlSjft6GOXvxdYwjh0VDfbk0cfXoqjPSHM4uutxHt6vyjGll6qdsjLeTCPAVl6XiygPCwtcblnwQ==}
+    peerDependencies:
+      eslint: '*'
+
+  '@stylistic/eslint-plugin-ts@2.12.1':
+    resolution: {integrity: sha512-Xx1NIioeW6LLlOfq5L/dLSrUXvi6q80UXDNbn/rXjKCzFT4a8wKwtp1q25kssdr1JEXI9a6tOHwFsh4Em+MoGg==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: '>=8.40.0'
+
+  '@stylistic/eslint-plugin@2.12.1':
+    resolution: {integrity: sha512-fubZKIHSPuo07FgRTn6S4Nl0uXPRPYVNpyZzIDGfp7Fny6JjNus6kReLD7NI380JXi4HtUTSOZ34LBuNPO1XLQ==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: '>=8.40.0'
 
   '@ts-morph/common@0.22.0':
     resolution: {integrity: sha512-HqNBuV/oIlMKdkLshXd1zKBqNQCsuPEsgQOkfFQ/eUKjRlwndXW1AjN9LVkBEIukm00gGXSRmfkl0Wv5VXLnlw==}
@@ -1121,12 +1159,6 @@ packages:
     resolution: {integrity: sha512-aKVq0ujBTsQaUzucOK5aRz40oTU/lr8MfF7I05eF8iGBQW/Jq49vQxxy8qiLcut96UKuGhOCn6AY/jYk/ZaaKQ==}
     peerDependencies:
       eslint-plugin-import: 0.13.x
-
-  eslint-config-prettier@9.1.0:
-    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
-    hasBin: true
-    peerDependencies:
-      eslint: '>=7.0.0'
 
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
@@ -2146,11 +2178,6 @@ packages:
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
-
-  prettier@3.4.2:
-    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
-    engines: {node: '>=14'}
-    hasBin: true
 
   prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
@@ -3179,6 +3206,46 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
+  '@stylistic/eslint-plugin-js@2.12.1(eslint@9.17.0)':
+    dependencies:
+      eslint: 9.17.0
+      eslint-visitor-keys: 4.2.0
+      espree: 10.3.0
+
+  '@stylistic/eslint-plugin-jsx@2.12.1(eslint@9.17.0)':
+    dependencies:
+      eslint: 9.17.0
+      eslint-visitor-keys: 4.2.0
+      espree: 10.3.0
+      estraverse: 5.3.0
+      picomatch: 4.0.2
+
+  '@stylistic/eslint-plugin-plus@2.12.1(eslint@9.17.0)':
+    dependencies:
+      eslint: 9.17.0
+
+  '@stylistic/eslint-plugin-ts@2.12.1(eslint@9.17.0)(typescript@5.7.2)':
+    dependencies:
+      '@typescript-eslint/utils': 8.18.2(eslint@9.17.0)(typescript@5.7.2)
+      eslint: 9.17.0
+      eslint-visitor-keys: 4.2.0
+      espree: 10.3.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+
+  '@stylistic/eslint-plugin@2.12.1(eslint@9.17.0)(typescript@5.7.2)':
+    dependencies:
+      '@typescript-eslint/utils': 8.18.2(eslint@9.17.0)(typescript@5.7.2)
+      eslint: 9.17.0
+      eslint-visitor-keys: 4.2.0
+      espree: 10.3.0
+      estraverse: 5.3.0
+      picomatch: 4.0.2
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+
   '@ts-morph/common@0.22.0':
     dependencies:
       fast-glob: 3.3.2
@@ -3862,10 +3929,6 @@ snapshots:
   eslint-config-import@0.13.0(eslint-plugin-import@2.31.0):
     dependencies:
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.18.2(eslint@9.17.0)(typescript@5.7.2))(eslint-import-resolver-typescript@3.7.0)(eslint@9.17.0)
-
-  eslint-config-prettier@9.1.0(eslint@9.17.0):
-    dependencies:
-      eslint: 9.17.0
 
   eslint-import-resolver-node@0.3.9:
     dependencies:
@@ -5242,8 +5305,6 @@ snapshots:
   preact@10.25.4: {}
 
   prelude-ls@1.2.1: {}
-
-  prettier@3.4.2: {}
 
   prop-types@15.8.1:
     dependencies:
