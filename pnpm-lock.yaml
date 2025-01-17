@@ -28,8 +28,8 @@ importers:
         specifier: npm:@preact/compat@^17.1.2
         version: '@preact/compat@17.1.2(preact@10.25.4)'
       react-router-dom:
-        specifier: ^7.1.1
-        version: 7.1.1(@preact/compat@17.1.2(preact@10.25.4))(@preact/compat@17.1.2(preact@10.25.4))
+        specifier: ^7.1.2
+        version: 7.1.2(@preact/compat@17.1.2(preact@10.25.4))(@preact/compat@17.1.2(preact@10.25.4))
     devDependencies:
       '@mdx-js/react':
         specifier: ^3.1.0
@@ -656,8 +656,8 @@ packages:
   '@types/mdx@2.0.13':
     resolution: {integrity: sha512-+OWZQfAYyio6YkJb3HLxDrvnx6SWWDbC0zVPfBRzUk0/nqoDyf6dNxQi3eArPe8rJ473nobTMQ/8Zk+LxJ+Yuw==}
 
-  '@types/ms@0.7.34':
-    resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
+  '@types/ms@2.1.0':
+    resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
   '@types/node@22.10.7':
     resolution: {integrity: sha512-V09KvXxFiutGp6B7XkpaDXlNadZxrzajcY50EuoLIpQ6WWYCSvf19lVIazzfIzQvhUN2HjX12spLojTnhuKlGg==}
@@ -2208,15 +2208,15 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react-router-dom@7.1.1:
-    resolution: {integrity: sha512-vSrQHWlJ5DCfyrhgo0k6zViOe9ToK8uT5XGSmnuC2R3/g261IdIMpZVqfjD6vWSXdnf5Czs4VA/V60oVR6/jnA==}
+  react-router-dom@7.1.2:
+    resolution: {integrity: sha512-kE7JdrDfeWO/2d6RPucLmqp2UL8Isv1VWtI5MQyYNA99KtncqxWDL6550+0rH4fboJKJbXRcyjRnIRT/gkxTcA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
 
-  react-router@7.1.1:
-    resolution: {integrity: sha512-39sXJkftkKWRZ2oJtHhCxmoCrBCULr/HAH4IT5DHlgu/Q0FCPV0S4Lx+abjDTx/74xoZzNYDYbOZWlJjruyuDQ==}
+  react-router@7.1.2:
+    resolution: {integrity: sha512-KeallSO30KLpIe/ZZqfk6pCJ1c+5JhMxl3SCS3Zx1LgaGuQbgLDmjuNi6KZ5LnAV9sWjbmBWGRw8Um/Pw6BExg==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -3272,7 +3272,7 @@ snapshots:
 
   '@types/debug@4.1.12':
     dependencies:
-      '@types/ms': 0.7.34
+      '@types/ms': 2.1.0
 
   '@types/estree-jsx@1.0.5':
     dependencies:
@@ -3294,7 +3294,7 @@ snapshots:
 
   '@types/mdx@2.0.13': {}
 
-  '@types/ms@0.7.34': {}
+  '@types/ms@2.1.0': {}
 
   '@types/node@22.10.7':
     dependencies:
@@ -5360,13 +5360,13 @@ snapshots:
 
   react-is@16.13.1: {}
 
-  react-router-dom@7.1.1(@preact/compat@17.1.2(preact@10.25.4))(@preact/compat@17.1.2(preact@10.25.4)):
+  react-router-dom@7.1.2(@preact/compat@17.1.2(preact@10.25.4))(@preact/compat@17.1.2(preact@10.25.4)):
     dependencies:
       react: '@preact/compat@17.1.2(preact@10.25.4)'
       react-dom: '@preact/compat@17.1.2(preact@10.25.4)'
-      react-router: 7.1.1(@preact/compat@17.1.2(preact@10.25.4))(@preact/compat@17.1.2(preact@10.25.4))
+      react-router: 7.1.2(@preact/compat@17.1.2(preact@10.25.4))(@preact/compat@17.1.2(preact@10.25.4))
 
-  react-router@7.1.1(@preact/compat@17.1.2(preact@10.25.4))(@preact/compat@17.1.2(preact@10.25.4)):
+  react-router@7.1.2(@preact/compat@17.1.2(preact@10.25.4))(@preact/compat@17.1.2(preact@10.25.4)):
     dependencies:
       '@types/cookie': 0.6.0
       cookie: 1.0.2
