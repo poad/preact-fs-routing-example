@@ -15,11 +15,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "preact": "^10.26.1",
+    "preact": "^10.26.2",
     "preact-render-to-string": "^6.5.13",
     "react": "npm:@preact/compat@^18.3.1",
     "react-dom": "npm:@preact/compat@^18.3.1",
-    "react-router-dom": "^7.1.5"
+    "react-router-dom": "^7.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
@@ -36,7 +36,7 @@
     "@types/react": "^19.0.10",
     "eslint": "^9.20.1",
     "eslint-config-import": "^0.13.0",
-    "eslint-import-resolver-typescript": "^3.8.1",
+    "eslint-import-resolver-typescript": "^3.8.2",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
