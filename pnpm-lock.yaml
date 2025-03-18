@@ -39,10 +39,10 @@ importers:
         version: 9.22.0
       '@mdx-js/react':
         specifier: ^3.1.0
-        version: 3.1.0(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.10)
+        version: 3.1.0(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.11)
       '@next/eslint-plugin-next':
-        specifier: ^15.2.2
-        version: 15.2.2
+        specifier: ^15.2.3
+        version: 15.2.3
       '@preact/preset-vite':
         specifier: ^2.10.1
         version: 2.10.1(@babel/core@7.26.10)(preact@10.26.4)(vite@6.2.2(@types/node@22.13.10)(terser@5.39.0))
@@ -65,8 +65,8 @@ importers:
         specifier: ^22.13.10
         version: 22.13.10
       '@types/react':
-        specifier: ^19.0.10
-        version: 19.0.10
+        specifier: ^19.0.11
+        version: 19.0.11
       eslint:
         specifier: ^9.22.0
         version: 9.22.0
@@ -74,14 +74,14 @@ importers:
         specifier: ^0.13.0
         version: 0.13.0(eslint-plugin-import@2.31.0)
       eslint-import-resolver-typescript:
-        specifier: ^4.0.0
-        version: 4.0.0(eslint-plugin-import@2.31.0)(eslint@9.22.0)
+        specifier: ^4.2.0
+        version: 4.2.0(eslint-plugin-import@2.31.0)(eslint@9.22.0)(is-bun-module@1.3.0)
       eslint-plugin-flowtype:
         specifier: ^8.0.3
         version: 8.0.3(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.26.10))(@babel/plugin-transform-react-jsx@7.25.9(@babel/core@7.26.10))(eslint@9.22.0)
       eslint-plugin-import:
         specifier: ^2.31.0
-        version: 2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-typescript@4.0.0)(eslint@9.22.0)
+        version: 2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-typescript@4.2.0)(eslint@9.22.0)
       eslint-plugin-promise:
         specifier: ^7.2.1
         version: 7.2.1(eslint@9.22.0)
@@ -92,8 +92,8 @@ importers:
         specifier: ^5.2.0
         version: 5.2.0(eslint@9.22.0)
       pnpm:
-        specifier: ^10.6.3
-        version: 10.6.3
+        specifier: ^10.6.4
+        version: 10.6.4
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -111,7 +111,7 @@ importers:
         version: 5.0.0
       vite-plugin-react-pages:
         specifier: ^5.0.0
-        version: 5.0.0(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.10)(acorn@8.14.1)(rollup@4.36.0)(vite@6.2.2(@types/node@22.13.10)(terser@5.39.0))
+        version: 5.0.0(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.11)(acorn@8.14.1)(rollup@4.36.0)(vite@6.2.2(@types/node@22.13.10)(terser@5.39.0))
 
 packages:
 
@@ -467,8 +467,8 @@ packages:
   '@napi-rs/wasm-runtime@0.2.7':
     resolution: {integrity: sha512-5yximcFK5FNompXfJFoWanu5l8v1hNGqNHh9du1xETp9HWk/B/PzvchX55WYOPaIeNglG8++68AAiauBAtbnzw==}
 
-  '@next/eslint-plugin-next@15.2.2':
-    resolution: {integrity: sha512-1+BzokFuFQIfLaRxUKf2u5In4xhPV7tUgKcK53ywvFl6+LXHWHpFkcV7VNeKlyQKUotwiq4fy/aDNF9EiUp4RQ==}
+  '@next/eslint-plugin-next@15.2.3':
+    resolution: {integrity: sha512-eNSOIMJtjs+dp4Ms1tB1PPPJUQHP3uZK+OQ7iFY9qXpGO6ojT6imCL+KcUOqE/GXGidWbBZJzYdgAdPHqeCEPA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -692,8 +692,8 @@ packages:
   '@types/node@22.13.10':
     resolution: {integrity: sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==}
 
-  '@types/react@19.0.10':
-    resolution: {integrity: sha512-JuRQ9KXLEjaUNjTWpzuR231Z2WpIwczOkBEIvbHNCzQefFIT0L8IqE6NV6ULLyC1SI/i234JnDoMkfg+RjQj2g==}
+  '@types/react@19.0.11':
+    resolution: {integrity: sha512-vrdxRZfo9ALXth6yPfV16PYTLZwsUWhVjjC+DkfE5t1suNSbBrWC9YqSuuxJZ8Ps6z1o2ycRpIqzZJIgklq4Tw==}
 
   '@types/unist@2.0.11':
     resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
@@ -975,8 +975,8 @@ packages:
     resolution: {integrity: sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==}
     engines: {node: '>=14.16'}
 
-  caniuse-lite@1.0.30001705:
-    resolution: {integrity: sha512-S0uyMMiYvA7CxNgomYBwwwPUnWzFD83f3B1ce5jHUfHTH//QL6hHsreI8RVC5606R4ssqravelYO5TU6t8sEyg==}
+  caniuse-lite@1.0.30001706:
+    resolution: {integrity: sha512-3ZczoTApMAZwPKYWmwVbQMFpXBDds3/0VciVoUwPUbldlYyVLmRVuRs/PcUZtHpbLRpzzDvrvnFuREsGt6lUug==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -1173,8 +1173,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.119:
-    resolution: {integrity: sha512-Ku4NMzUjz3e3Vweh7PhApPrZSS4fyiCIbcIrG9eKrriYVLmbMepETR/v6SU7xPm98QTqMSYiCwfO89QNjXLkbQ==}
+  electron-to-chromium@1.5.120:
+    resolution: {integrity: sha512-oTUp3gfX1gZI+xfD2djr2rzQdHCwHzPQrrK0CD7WpTdF0nPdQ/INcRVjWgLdCT4a9W3jFObR9DAfsuyFQnI8CQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -1253,17 +1253,20 @@ packages:
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
 
-  eslint-import-resolver-typescript@4.0.0:
-    resolution: {integrity: sha512-dnZZVh4I0yYrKDwT+G9+QvatOjArurtwZS3n2i5SKfFYiy+669z2wkR8ZI5gh8yUGJYH86kUhp0FkSlKerl02w==}
+  eslint-import-resolver-typescript@4.2.0:
+    resolution: {integrity: sha512-VpsqcxzMY5q/XdXzlyCxSLPCbwNLMgCFGjCHzuQPgNiQvOzTVM5VCEHVA/3Gn5m8egfW/A+7Cn+/58ZVRNd5sg==}
     engines: {node: ^16.17.0 || >=18.6.0}
     peerDependencies:
       eslint: '*'
       eslint-plugin-import: '*'
       eslint-plugin-import-x: '*'
+      is-bun-module: '*'
     peerDependenciesMeta:
       eslint-plugin-import:
         optional: true
       eslint-plugin-import-x:
+        optional: true
+      is-bun-module:
         optional: true
 
   eslint-module-utils@2.12.0:
@@ -2266,8 +2269,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@10.6.3:
-    resolution: {integrity: sha512-u0XjTVCpp26FipWDcwG/tr1tNa6ixdUglPpJekZ8Q/XEQBA84lEengovicPWBxuqwzWPxorG+3XizrPSc2Bl5g==}
+  pnpm@10.6.4:
+    resolution: {integrity: sha512-2j1xW/0iqaEF5ugIjPx4JmmTMt7WDEI7FOxhOhhfFgIgZwL/D+TEOMsVyXkIHOTLAlaONksVF0UDpjx6jipfbA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -3211,10 +3214,10 @@ snapshots:
       - acorn
       - supports-color
 
-  '@mdx-js/react@3.1.0(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.10)':
+  '@mdx-js/react@3.1.0(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.11)':
     dependencies:
       '@types/mdx': 2.0.13
-      '@types/react': 19.0.10
+      '@types/react': 19.0.11
       react: '@preact/compat@18.3.1(preact@10.26.4)'
 
   '@mdx-js/rollup@3.1.0(acorn@8.14.1)(rollup@4.36.0)':
@@ -3235,7 +3238,7 @@ snapshots:
       '@tybys/wasm-util': 0.9.0
     optional: true
 
-  '@next/eslint-plugin-next@15.2.2':
+  '@next/eslint-plugin-next@15.2.3':
     dependencies:
       fast-glob: 3.3.1
 
@@ -3453,7 +3456,7 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  '@types/react@19.0.10':
+  '@types/react@19.0.11':
     dependencies:
       csstype: 3.1.3
 
@@ -3742,8 +3745,8 @@ snapshots:
 
   browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001705
-      electron-to-chromium: 1.5.119
+      caniuse-lite: 1.0.30001706
+      electron-to-chromium: 1.5.120
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
 
@@ -3777,7 +3780,7 @@ snapshots:
 
   camelcase@7.0.1: {}
 
-  caniuse-lite@1.0.30001705: {}
+  caniuse-lite@1.0.30001706: {}
 
   ccount@2.0.1: {}
 
@@ -3975,7 +3978,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.119: {}
+  electron-to-chromium@1.5.120: {}
 
   emoji-regex@8.0.0: {}
 
@@ -4135,7 +4138,7 @@ snapshots:
 
   eslint-config-import@0.13.0(eslint-plugin-import@2.31.0):
     dependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-typescript@4.0.0)(eslint@9.22.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-typescript@4.2.0)(eslint@9.22.0)
 
   eslint-import-resolver-node@0.3.9:
     dependencies:
@@ -4145,28 +4148,28 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@4.0.0(eslint-plugin-import@2.31.0)(eslint@9.22.0):
+  eslint-import-resolver-typescript@4.2.0(eslint-plugin-import@2.31.0)(eslint@9.22.0)(is-bun-module@1.3.0):
     dependencies:
       debug: 4.4.0
       eslint: 9.22.0
       get-tsconfig: 4.10.0
-      is-bun-module: 1.3.0
       rspack-resolver: 1.1.2
       stable-hash: 0.0.5
       tinyglobby: 0.2.12
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-typescript@4.0.0)(eslint@9.22.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-typescript@4.2.0)(eslint@9.22.0)
+      is-bun-module: 1.3.0
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@4.0.0)(eslint@9.22.0):
+  eslint-module-utils@2.12.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@4.2.0)(eslint@9.22.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
       '@typescript-eslint/parser': 8.26.1(eslint@9.22.0)(typescript@5.8.2)
       eslint: 9.22.0
       eslint-import-resolver-node: 0.3.9
-      eslint-import-resolver-typescript: 4.0.0(eslint-plugin-import@2.31.0)(eslint@9.22.0)
+      eslint-import-resolver-typescript: 4.2.0(eslint-plugin-import@2.31.0)(eslint@9.22.0)(is-bun-module@1.3.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4178,7 +4181,7 @@ snapshots:
       lodash: 4.17.21
       string-natural-compare: 3.0.1
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-typescript@4.0.0)(eslint@9.22.0):
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-typescript@4.2.0)(eslint@9.22.0):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8
@@ -4189,7 +4192,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 9.22.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@4.0.0)(eslint@9.22.0)
+      eslint-module-utils: 2.12.0(@typescript-eslint/parser@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@4.2.0)(eslint@9.22.0)
       hasown: 2.0.2
       is-core-module: 2.16.1
       is-glob: 4.0.3
@@ -4665,6 +4668,7 @@ snapshots:
   is-bun-module@1.3.0:
     dependencies:
       semver: 7.7.1
+    optional: true
 
   is-callable@1.2.7: {}
 
@@ -4789,9 +4793,9 @@ snapshots:
     dependencies:
       detect-newline: 3.1.0
 
-  jotai@2.12.2(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.10):
+  jotai@2.12.2(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.11):
     optionalDependencies:
-      '@types/react': 19.0.10
+      '@types/react': 19.0.11
       react: '@preact/compat@18.3.1(preact@10.26.4)'
 
   js-tokens@4.0.0: {}
@@ -5525,7 +5529,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@10.6.3: {}
+  pnpm@10.6.4: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -6208,7 +6212,7 @@ snapshots:
 
   vite-pages-theme-doc@5.0.0: {}
 
-  vite-plugin-react-pages@5.0.0(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.10)(acorn@8.14.1)(rollup@4.36.0)(vite@6.2.2(@types/node@22.13.10)(terser@5.39.0)):
+  vite-plugin-react-pages@5.0.0(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.11)(acorn@8.14.1)(rollup@4.36.0)(vite@6.2.2(@types/node@22.13.10)(terser@5.39.0)):
     dependencies:
       '@mdx-js/rollup': 3.1.0(acorn@8.14.1)(rollup@4.36.0)
       chalk: 4.1.2
@@ -6219,7 +6223,7 @@ snapshots:
       gray-matter: 4.0.3
       html-minifier-terser: 7.2.0
       jest-docblock: 29.7.0
-      jotai: 2.12.2(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.10)
+      jotai: 2.12.2(@preact/compat@18.3.1(preact@10.26.4))(@types/react@19.0.11)
       mdast-util-to-string: 4.0.0
       mini-debounce: 1.0.8
       minimist: 1.2.8
