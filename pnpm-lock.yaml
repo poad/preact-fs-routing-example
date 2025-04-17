@@ -45,7 +45,7 @@ importers:
         version: 15.3.0
       '@preact/preset-vite':
         specifier: ^2.10.1
-        version: 2.10.1(@babel/core@7.26.10)(preact@10.26.5)(vite@6.3.0(@types/node@22.14.1)(terser@5.39.0))
+        version: 2.10.1(@babel/core@7.26.10)(preact@10.26.5)(vite@6.3.1(@types/node@22.14.1)(terser@5.39.0))
       '@stylistic/eslint-plugin':
         specifier: ^4.2.0
         version: 4.2.0(eslint@9.24.0)(typescript@5.8.3)
@@ -104,14 +104,14 @@ importers:
         specifier: ^8.30.1
         version: 8.30.1(eslint@9.24.0)(typescript@5.8.3)
       vite:
-        specifier: ^6.3.0
-        version: 6.3.0(@types/node@22.14.1)(terser@5.39.0)
+        specifier: ^6.3.1
+        version: 6.3.1(@types/node@22.14.1)(terser@5.39.0)
       vite-pages-theme-doc:
         specifier: ^5.0.0
         version: 5.0.0
       vite-plugin-react-pages:
         specifier: ^5.0.0
-        version: 5.0.0(@preact/compat@18.3.1(preact@10.26.5))(@types/react@19.1.2)(acorn@8.14.1)(rollup@4.40.0)(vite@6.3.0(@types/node@22.14.1)(terser@5.39.0))
+        version: 5.0.0(@preact/compat@18.3.1(preact@10.26.5))(@types/react@19.1.2)(acorn@8.14.1)(rollup@4.40.0)(vite@6.3.1(@types/node@22.14.1)(terser@5.39.0))
 
 packages:
 
@@ -367,8 +367,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@eslint-community/eslint-utils@4.6.0':
-    resolution: {integrity: sha512-WhCn7Z7TauhBtmzhvKpoQs0Wwb/kBcy4CwpuI0/eEIr2Lx2auxmulAzLr91wVZJaz47iUZdkXOK7WlAfxGKCnA==}
+  '@eslint-community/eslint-utils@4.6.1':
+    resolution: {integrity: sha512-KTsJMmobmbrFLe3LDh0PC2FXpcSYJt/MLjlkh/9LEnmKYLSYmT/0EW9JWANjeoemiuZrmogti0tW5Ch+qNUYDw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
@@ -2810,8 +2810,8 @@ packages:
   vite-prerender-plugin@0.5.8:
     resolution: {integrity: sha512-XAED6mSH3kAW09/kQTN+jHTdDlM1cdKjVpB3ME1hGspExu5rRiqVRxSA+i1iembvuTnklb7urCykFYVJrtDlxg==}
 
-  vite@6.3.0:
-    resolution: {integrity: sha512-9aC0n4pr6hIbvi1YOpFjwQ+QOTGssvbJKoeYkuHHGWwlXfdxQlI8L2qNMo9awEEcCPSiS+5mJZk5jH1PAqoDeQ==}
+  vite@6.3.1:
+    resolution: {integrity: sha512-kkzzkqtMESYklo96HKKPE5KKLkC1amlsqt+RjFMlX2AvbRB/0wghap19NdBxxwGZ+h/C6DLCrcEphPIItlGrRQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -3124,7 +3124,7 @@ snapshots:
   '@esbuild/win32-x64@0.24.0':
     optional: true
 
-  '@eslint-community/eslint-utils@4.6.0(eslint@9.24.0)':
+  '@eslint-community/eslint-utils@4.6.1(eslint@9.24.0)':
     dependencies:
       eslint: 9.24.0
       eslint-visitor-keys: 3.4.3
@@ -3290,17 +3290,17 @@ snapshots:
     dependencies:
       preact: 10.26.5
 
-  '@preact/preset-vite@2.10.1(@babel/core@7.26.10)(preact@10.26.5)(vite@6.3.0(@types/node@22.14.1)(terser@5.39.0))':
+  '@preact/preset-vite@2.10.1(@babel/core@7.26.10)(preact@10.26.5)(vite@6.3.1(@types/node@22.14.1)(terser@5.39.0))':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.10)
       '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.26.10)
-      '@prefresh/vite': 2.4.7(preact@10.26.5)(vite@6.3.0(@types/node@22.14.1)(terser@5.39.0))
+      '@prefresh/vite': 2.4.7(preact@10.26.5)(vite@6.3.1(@types/node@22.14.1)(terser@5.39.0))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.10)
       debug: 4.4.0
       kolorist: 1.8.0
-      vite: 6.3.0(@types/node@22.14.1)(terser@5.39.0)
+      vite: 6.3.1(@types/node@22.14.1)(terser@5.39.0)
       vite-prerender-plugin: 0.5.8
     transitivePeerDependencies:
       - preact
@@ -3314,7 +3314,7 @@ snapshots:
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.7(preact@10.26.5)(vite@6.3.0(@types/node@22.14.1)(terser@5.39.0))':
+  '@prefresh/vite@2.4.7(preact@10.26.5)(vite@6.3.1(@types/node@22.14.1)(terser@5.39.0))':
     dependencies:
       '@babel/core': 7.26.10
       '@prefresh/babel-plugin': 0.5.1
@@ -3322,7 +3322,7 @@ snapshots:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.26.5
-      vite: 6.3.0(@types/node@22.14.1)(terser@5.39.0)
+      vite: 6.3.1(@types/node@22.14.1)(terser@5.39.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -3558,7 +3558,7 @@ snapshots:
 
   '@typescript-eslint/utils@8.30.1(eslint@9.24.0)(typescript@5.8.3)':
     dependencies:
-      '@eslint-community/eslint-utils': 4.6.0(eslint@9.24.0)
+      '@eslint-community/eslint-utils': 4.6.1(eslint@9.24.0)
       '@typescript-eslint/scope-manager': 8.30.1
       '@typescript-eslint/types': 8.30.1
       '@typescript-eslint/typescript-estree': 8.30.1(typescript@5.8.3)
@@ -4258,7 +4258,7 @@ snapshots:
 
   eslint-plugin-promise@7.2.1(eslint@9.24.0):
     dependencies:
-      '@eslint-community/eslint-utils': 4.6.0(eslint@9.24.0)
+      '@eslint-community/eslint-utils': 4.6.1(eslint@9.24.0)
       eslint: 9.24.0
 
   eslint-plugin-react-hooks@5.2.0(eslint@9.24.0):
@@ -4298,7 +4298,7 @@ snapshots:
 
   eslint@9.24.0:
     dependencies:
-      '@eslint-community/eslint-utils': 4.6.0(eslint@9.24.0)
+      '@eslint-community/eslint-utils': 4.6.1(eslint@9.24.0)
       '@eslint-community/regexpp': 4.12.1
       '@eslint/config-array': 0.20.0
       '@eslint/config-helpers': 0.2.1
@@ -6261,7 +6261,7 @@ snapshots:
 
   vite-pages-theme-doc@5.0.0: {}
 
-  vite-plugin-react-pages@5.0.0(@preact/compat@18.3.1(preact@10.26.5))(@types/react@19.1.2)(acorn@8.14.1)(rollup@4.40.0)(vite@6.3.0(@types/node@22.14.1)(terser@5.39.0)):
+  vite-plugin-react-pages@5.0.0(@preact/compat@18.3.1(preact@10.26.5))(@types/react@19.1.2)(acorn@8.14.1)(rollup@4.40.0)(vite@6.3.1(@types/node@22.14.1)(terser@5.39.0)):
     dependencies:
       '@mdx-js/rollup': 3.1.0(acorn@8.14.1)(rollup@4.40.0)
       chalk: 4.1.2
@@ -6287,7 +6287,7 @@ snapshots:
       ts-morph: 21.0.1
       typescript: 5.8.3
       unist-util-visit: 5.0.0
-      vite: 6.3.0(@types/node@22.14.1)(terser@5.39.0)
+      vite: 6.3.1(@types/node@22.14.1)(terser@5.39.0)
     transitivePeerDependencies:
       - '@types/react'
       - acorn
@@ -6304,7 +6304,7 @@ snapshots:
       source-map: 0.7.4
       stack-trace: 1.0.0-pre2
 
-  vite@6.3.0(@types/node@22.14.1)(terser@5.39.0):
+  vite@6.3.1(@types/node@22.14.1)(terser@5.39.0):
     dependencies:
       esbuild: 0.24.0
       fdir: 6.4.3(picomatch@4.0.2)
